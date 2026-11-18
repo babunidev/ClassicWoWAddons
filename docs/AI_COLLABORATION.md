@@ -12,7 +12,7 @@ The available repository history does not reliably establish who performed each 
 
 During the October 2026 documentation pass, AI assistance inspected source files and selected commits, identified technical discrepancies and drafted project documentation. No live client tests took place.
 
-When returning to the project in November 2026, the descriptive name **StealthEmotes** was adopted for the repository, and my personal recollection supplied the missing motivation. AI assistance revised documentation, checked the current repository and kept the original **Amazin** runtime identifiers intact. The historical purpose was supplied by the human creative; the document edits were carried out by AI.
+When returning to the project in November 2026, the descriptive name **StealthEmotes** was adopted for the repository, and my personal recollection supplied the missing motivation. AI assistance revised documentation, checked the current repository and kept the original **Amazin** runtime identifiers intact. The motivation came from my recollection, and AI carried out the document edits.
 
 ## How work is attributed
 
@@ -23,3 +23,7 @@ The documentation revision is not evidence that the addon was tested on a runnin
 ## Related development history
 
 Stealth Emotes (originally Amazin) is a playful Rogue-oriented parallel experiment created for my younger brother. The current addon has 12 fixed built-in emote tokens, configurable chance/cooldown and a watched action slot; it does not confirm Stealth, and it cannot add emote tokens through a player command. See the [comparative history of the expressive addons](EMOTE_FAMILY_HISTORY.md) for the broader source-backed chronology.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
