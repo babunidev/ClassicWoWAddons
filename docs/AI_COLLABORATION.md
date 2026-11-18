@@ -31,3 +31,7 @@ For historical details, clearly distinguish my recollection, a saved conversatio
 ## Related development history
 
 This first BuxbrewCharge experiment is the starting point of the action-emote line. Its ten native emotes are a **fixed code-defined pool**, not an in-game editable registry; the later Roar Guild addons introduced that capability. The documented comparison with the other World of Warcraft expressive addons is in [the emote-addon family history](EMOTE_FAMILY_HISTORY.md).
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
