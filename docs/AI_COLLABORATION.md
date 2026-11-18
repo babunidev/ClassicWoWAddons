@@ -2,8 +2,6 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**Creative:** Babuni
-
 ResistInsight began with my experience playing a warrior on a private World of Warcraft server. The original idea was to make resistance ratings understandable in the tooltips, and the work taught me more about the mechanics. The decision to rename the original BuxbrewResist repository, preserve it as a finished addon and keep the ResistForever port separate was also mine.
 
 ## Documented AI contributions
@@ -17,3 +15,7 @@ The original development may have involved AI assistance, but existing source an
 Record the human creative's motivation and decisions, the AI's specific research, design, coding or writing contribution, any important iteration, relevant commit and actual verification. Distinguish personal recollection from source-based reconstruction. Avoid publishing private conversations or presenting AI-assisted implementation as code personally written by the creative.
 
 Documentation consistency checks do not certify gameplay behavior, mathematical accuracy or compatibility with current Turtle WoW / Octo WoW clients. The original addon's identifiers remain unchanged.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
