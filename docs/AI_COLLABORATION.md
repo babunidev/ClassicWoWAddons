@@ -2,11 +2,9 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**Project creator and final creative authority:** Babuni.dev.
+## Keeping both effects visible
 
-## Creative attribution
-
-The original design—the permanent weapon enchant glow coexisting with a Shaman's temporary imbue—and the decision to preserve the original game's visual vocabulary belong to Babuni.dev. The first September 11 publication already included the full core C++ implementation, screenshot examples and an installer.
+For my Shaman, I wanted the permanent weapon-enchant glow to stay visible alongside the temporary imbue, using the game’s own visual language. The initial September 11 publication already had the C++ implementation, screenshots and an installer.
 
 Git does **not** establish a complete record of earlier human–AI conversations or who personally wrote each C++ line before the initial commit. An assistant involved in **October 27 documentation** cannot retroactively claim to have invented the effect, approved the risks or completed the first game client tests.
 
@@ -15,7 +13,7 @@ The project also has independent third-party provenance: MinHook 1.3.4 and its d
 ## AI work documented during this October 27, 2026 audit
 
 The assistant:
-- Identified **EnchantVisuals** as repository **#23** in the Babuni.dev audit sequence, following #21 GroupBuffToggle and #22 TotemTimers.
+- Identified **EnchantVisuals** as repository **#23** in the portfolio audit sequence, following #21 GroupBuffToggle and #22 TotemTimers.
 - Read the live repository tree, README, current C++ renderer and visual-pair helpers, client signatures, Windows build file, installer, INI, tests, LICENSE, MinHook notices, and four screenshot file entries.
 - Inspected the September 11 initial publication and September 18 provider-neutral rename/build changes, October credit/documentation commits, and **v1.0.0/v1.0.1 release metadata**.
 - Documented that the **earlier build was reported tested in-game**, while the **newly rebuilt v1.0.1 DLL was not yet revalidated in-game** according to its own published release.
@@ -30,10 +28,14 @@ For every significant change preserve:
 1. **User direction:** the actual artistic result desired and constraints.
 2. **AI contribution:** what was suggested, generated, coded, documented or tested.
 3. **Creative iteration:** alternatives, failures, source challenges, debugging steps and corrected assumptions.
-4. **Creator decision:** explicit approval/rejection/deferral, not mere implication from a roadmap.
+4. **Creative decision:** explicit approval/rejection/deferral, not mere implication from a roadmap.
 5. **Implementation:** exact C++/installer/assets/document paths, commits and release identifiers.
 6. **Verification:** actual client executable, checksum, DLL binary, test commands, observed runtime behavior and unresolved limitations.
 
 Protect player privacy and machine state. Redact process/thread IDs and pointers in publicly shared diagnostic logs. Don't disclose raw private chats, personal local paths or credentials. Keep the MIT and MinHook license distinctions visible in any published portfolio representation.
 
 **This October 27 audit changes only documentation, not the executable or its build/configuration.**
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
