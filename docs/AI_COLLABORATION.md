@@ -2,13 +2,11 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**Human creator and creative director:** Babuni.dev.
+## From Warrior to three classes
 
-## What can be supported
+After my Warrior experiment, I wanted selected actions to start ordinary auto-attacks for Paladins and Shamans too. The commits show the move from a single hook to three entry points, a cached Attack action, and class-specific start and stop behavior.
 
-The current repository and dated commits show a creative idea to connect player-selected melee/casting actions with normal auto-attacks in old WoW, broadening earlier Warrior-only experiments to Paladin, Warrior and Shaman. They show the implementation changing from a one-hook whitelist to a three-entry-point, cached-Attack-action, class-learnable start/stop system.
-
-They do **not** by themselves establish which lines were originally produced by a human, which were authored with an AI, why every change was discussed or whether any proposal was approved outside recorded changes. Do not attribute the creator's initial idea to AI or fabricate missing conversation.
+They do **not** by themselves establish which lines were originally produced by a human, which were authored with an AI, why every change was discussed or whether any proposal was approved outside recorded changes. Do not attribute the creative's initial idea to AI or fabricate missing conversation.
 
 ## AI assistance in this documentation session (2026-10-26)
 
@@ -24,11 +22,15 @@ This is **editorial, research and technical analysis work**, not a claim that th
 ## Method for future changes
 
 Every substantial discussion/implementation should preserve:
-1. **User direction:** What Babuni.dev wanted and why, including limits.
+1. **User direction:** What I wanted and why, including limits.
 2. **AI interpretation/proposal:** Alternatives, tradeoffs, and what the assistant actually contributed.
 3. **Creative iteration:** Misunderstandings, mistakes, rejected ideas and refinements.
-4. **Creator decisions:** What was explicitly accepted, rejected or postponed.
+4. **Creative decisions:** What was explicitly accepted, rejected or postponed.
 5. **Implementation:** Changed paths, commit/PR reference and migration implications.
 6. **Verification:** Test environment, commands, actual outcomes and what remains unverified.
 
-Create publishable summaries rather than raw private transcripts. Keep credentials, unrelated private details, and other players' private communications out of the portfolio. Respect the creator's choice of a code license; there is **no LICENSE** committed as of this pass.
+Create publishable summaries rather than raw private transcripts. Keep credentials, unrelated private details, and other players' private communications out of the portfolio. Respect the creative's choice of a code license; there is **no LICENSE** committed as of this pass.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
