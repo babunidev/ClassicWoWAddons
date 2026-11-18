@@ -2,13 +2,11 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**Creator and creative director:** Babuni.
+## Taking the idea to Wrath
 
-## Creative ownership
+The Wrath addon carries forward my ROAR experiments with expressive action presses and a guild voice rooted in curiosity, kindness and shared stories. The source header reads `RoarGuild v1.32`, a trace of that lineage.
 
-The repo's theme—using action presses to give a player's character more spontaneous expression—comes from the creator's ROAR-family work, not from this documentation audit. Its guild voice values exploring, curiosity, kindness, and shared stories. The uploaded source bears the internal header `RoarGuild v1.32`; that is evidence of conceptual/code proximity to neighboring projects, but it does not attribute original human ideas to AI or prove a specific cross-repository merge.
-
-Do not mistake native WoW emote tokens for uniquely AI-generated or creator-recorded audio/animations.
+Do not mistake native WoW emote tokens for uniquely AI-generated or creative-recorded audio/animations.
 
 ## What this AI session contributed
 
@@ -28,7 +26,7 @@ For each substantial implementation, write a documentation-ready record that pre
 1. **User direction** — goal, reasoning, constraints and creative authorship.
 2. **AI proposal** — designs, assumptions, limitations and alternatives.
 3. **Iteration** — experiments, misunderstandings, rejected paths and corrections.
-4. **Explicit decision** — what Babuni chose, rejected or postponed.
+4. **Explicit decision** — what I chose, rejected or postponed.
 5. **Implementation** — changed files, commit/PR and compatibility effects.
 6. **Verification** — what was tested in which game client, outcome and remaining unknowns.
 
@@ -45,3 +43,7 @@ The client chronology is my recollection: the Wrath 3.3.5 port came first, then 
 ## Related development history
 
 Roar Guild Addon Wrath is the Wrath 3.3.5 port of the earlier Roar Guild emote system, not a numbered sequel. Its repository was formerly ROARemoteTrigger, briefly EmoteTrigger; the installed addon remains ROARTrigger (`/rogu`, ROGUDB). It retains a **player-extensible native-emote registry** starting with ROAR, multiple configured action-slot triggers and a manually invoked guild-recruitment chat command. It does **not** include the Roarboard added to the separate Vanilla guild-addon project after returning to that client. See the [complete source-grounded timeline](EMOTE_FAMILY_HISTORY.md) for its relationship to the other emote addons.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
