@@ -2,11 +2,9 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**Creative author and owner:** Babuni.
+## Giving the roar its voice back
 
-## Attribution boundaries
-
-The concept, repository identity and intended experience—giving `/roar` its built-in race/sex sound—belong to the project created by Babuni. The repository's history shows code changes on specific days, including attempts at addon communication and a subsequent emote-text approach; Git alone cannot show who wrote individual code lines, what was said in private chats or which AI suggestions the creator approved.
+With Roar Sound Effects, I wanted each character’s roar to play its built-in race and sex sound again. The dated code records experiments with addon communication followed by emote-text detection. The original coding roles remain uncertain.
 
 The game-client WAV paths point to **game-owned assets**. They are not to be credited as sounds invented or recorded by either Babuni or an assistant.
 
@@ -22,7 +20,7 @@ The assistant:
 
 ## Future development journal standard
 
-Record (1) what Babuni requested and why, (2) what AI suggested or built, (3) competing approaches/constraints, (4) creator acceptance, rejection or postponement, (5) exact files and commits, and (6) what was actually tested with which game build.
+Record (1) what I requested and why, (2) what AI suggested or built, (3) competing approaches/constraints, (4) creative acceptance, rejection or postponement, (5) exact files and commits, and (6) what was actually tested with which game build.
 
 A retrospective source reading should be labeled as such. Do not invent missing conversations or imply that all previous changes were produced by AI or fully approved in the present discussion.
 
@@ -36,8 +34,12 @@ AI incorporated that testimony and checked it against the ROAR source to separat
 
 ## November 2026 — documenting the rename
 
-I renamed the GitHub repository to **RoarSoundEffects** to give my earlier sound experiment a descriptive public title. At my request, AI revised the current documentation and attribution, preserving the historical **ROAR** installed addon and the distinction between my idea and source-based interpretation. No in-game audio testing was performed.
+To make its purpose easier to recognize, I renamed the GitHub repository to **RoarSoundEffects** to give my earlier sound experiment a descriptive public title. At my request, AI revised the current documentation and attribution, preserving the historical **ROAR** installed addon and the distinction between my idea and source-based interpretation. No in-game audio testing was performed.
 
 ## Related development history
 
 Roar Sound Effects (originally ROARSounds) belongs to the **voice-restoration branch** of these expressive WoW experiments, not to the action-slot emote-trigger family. The April 2026 implementation listens for recognized text-emote activity and tries to replay the race/sex-specific client roar sound. It does **not** provide an emote registry, automatically perform an emote on ability use, or generate custom audio. This creative approach later informed Roar Forever, although direct code inheritance has not been verified. The [cross-project record](EMOTE_FAMILY_HISTORY.md) puts both branches in context.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
