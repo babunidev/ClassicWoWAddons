@@ -2,11 +2,9 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**Creator / final creative authority:** Babuni.dev.
+## Making loot easier to read
 
-## Attribution must follow evidence
-
-The initial Octo Loot design and its evolution into LootFeed are part of Babuni.dev's creative portfolio. The project idea—short, interactive loot messages with low UI clutter—cannot be attributed retroactively to an assistant whose documented role in this session was to **inspect and describe** the repository.
+With Octo Loot, later LootFeed, I wanted short, interactive loot messages that left the rest of the interface clear. Dated commits show the feature progression and the correction around group-roll completion.
 
 Dated commits reveal the feature progression and a real technical correction about group-roll completion. They do not reveal exactly which person or AI generated earlier Lua source lines, nor every original user request or rejected alternative. Avoid inventing that dialogue.
 
@@ -25,13 +23,17 @@ This was **editorial, research and documentation work**. It is not an in-game te
 ## Future collaboration standard
 
 For every substantial iteration preserve:
-1. **User direction:** Babuni.dev's desired player feeling, functionality and constraints.
+1. **User direction:** my intended player experience, functionality and constraints.
 2. **AI contribution:** the actual suggestion/design/code/test or documentation, identified separately.
 3. **Creative iteration:** considered approaches, mistakes, misunderstandings and corrections, including rejected alternatives.
-4. **Creator decision:** explicit approval, rejection or postponement; never infer approval from a proposed roadmap.
+4. **Creative decision:** explicit approval, rejection or postponement; never infer approval from a proposed roadmap.
 5. **Implementation:** exact files/commits, any migration effects.
 6. **Verification:** actual environment, commands, observed results and unresolved cases.
 
 The publishable journal should be a truthful narrative, not pasted private chats. Keep genuine player names, group-loot conversations, account paths or credentials out of public examples; use the existing **fictional testroll** characters when a demonstration suffices.
 
 No Lua, TOC, migration script, tests or image assets were edited in the October 26 docs-only pass.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
