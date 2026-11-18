@@ -2,11 +2,9 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**Human project author and creative director:** Babuni.
+## What the guild sounded like
 
-## What is actually recorded
-
-This public repository contains the creator's stated design philosophy, the game addon Lua and TOC, dated source edits and several PR merge records. Its README explains RoarGuild as **presence rather than optimization**, and later as an invitation into a guild valuing curiosity, shared stories and joy. Those are the project's authorial direction and must not be presented as ideas invented by a documentation assistant.
+For Roar Guild, I wanted emotes to make a character feel present during ordinary play. The guild’s voice came from the same interest in curiosity, shared stories and joy.
 
 The Git history shows a 2026-01-10 combined RoarGuild/GodBod experiment, later removal of the exercise subsystem, expansion of user-defined emote selections and profiles, a manual-ROAR fix, a new August 2026 Roarboard subsystem, and September recruitment-text revisions. It does **not** preserve a complete human–AI design conversation explaining every individual decision.
 
@@ -21,10 +19,10 @@ An AI assistant inspected `README.md`, `roarguild.lua`, `roarguild.toc`, the exi
 ## How to record future collaboration
 
 For material changes, preserve:
-1. The creator's original direction and why it mattered.
+1. The creative's original direction and why it mattered.
 2. AI suggestions, architecture and tradeoffs—not silently accepted requirements.
 3. Alternative approaches, misunderstandings, iterations and corrections.
-4. Explicit decisions Babuni accepted, rejected or postponed.
+4. Explicit decisions I accepted, rejected or postponed.
 5. Actual file paths, commits, PRs and migration notes.
 6. Tests performed, observed results and limits to confidence.
 
@@ -41,3 +39,7 @@ The decision to rename this repository **RoarGuildAddon** came from my wish to s
 ## Related development history
 
 Roar Guild Addon (originally RoarGuild) combines the earlier multi-action trigger concept with an **expandable registry of client-native emote tokens**. Its master list starts with ROAR (ID 1), players can register additional client emote tokens via `/rogu emote <TOKEN>`, and select their IDs for individual trigger instances. Guild invitation messages are **manual recruitment chat broadcasts**, while the later August 2026 Roarboard provides a separate community feature. This Vanilla 1.12 history is distinct from the Wrath-targeted ROARTrigger port. Read [the full family timeline](EMOTE_FAMILY_HISTORY.md) for how these capabilities arose in the related repositories.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
