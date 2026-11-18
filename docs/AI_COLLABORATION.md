@@ -2,11 +2,9 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**Human creator and decision-maker:** Babuni.dev.
+## Starting an attack without toggling it off
 
-## Respect what the record does and does not say
-
-The 2026-08-10 initial README, Lua and TOC establish an original Warrior auto-attack quality-of-life project and its implementation: start on selected offensive **attempts**, guard against accidentally toggling off, and treat Intimidating Shout as a stop command.
+For my Warrior, I wanted selected offensive attempts to start auto-attack, with safeguards against accidentally turning it off. Intimidating Shout served as the stop command. The August 10, 2026 source and manifest record that behavior.
 
 The project history visible in Git **does not** contain a complete series of planning conversations or proof of whether an AI assisted with the initial August source upload. An assistant cannot retroactively claim that it conceived the idea, authored every line, or resolved a particular bug unless an actual source or conversation documents that fact.
 
@@ -19,18 +17,22 @@ An assistant:
 - Highlighted the missing Warrior-only check on the stop path, source-level icon collisions, global hook interactions and combat-state fallback uncertainty, explicitly as **unverified behavior**, not demonstrated bugs.
 - Expanded/rebuilt eleven Markdown documents with a narrative development history and proposed client tests.
 
-The AI performed **research, analysis and editorial documentation** in this session. It did **not** modify Lua/TOC, run World of Warcraft, validate localized spell behavior, approve new design changes or supply an open-source license on the creator's behalf.
+The AI performed **research, analysis and editorial documentation** in this session. It did **not** modify Lua/TOC, run World of Warcraft, validate localized spell behavior, approve new design changes or supply an open-source license on the creative's behalf.
 
 ## Required record for future implementations
 
 Preserve in the journal:
-1. **Creator direction:** What Babuni.dev wanted and why.
+1. **Creative direction:** What I wanted and why.
 2. **AI contribution:** What was proposed, analyzed, generated, or changed.
 3. **Iteration:** Tests, alternatives, disagreements, misunderstandings and corrections.
 4. **User decision:** Explicit acceptance, rejection or deferral.
 5. **Implementation:** Exact files, commits and test environment.
 6. **Verification:** What actually happened, observed effects, uncertainty and any regressions.
 
-Publish narrative summaries that protect privacy. Do not publish private conversations, user credentials, unrelated personal information or other players' data. Keep code-license questions visible until the human creator resolves them.
+Publish narrative summaries that protect privacy. Do not publish private conversations, user credentials, unrelated personal information or other players' data. Keep code-license questions visible until the human creative resolves them.
 
 This audit made **documentation changes only** and claims no code or client test results.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
