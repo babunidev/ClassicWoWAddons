@@ -2,15 +2,13 @@
 
 Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
 
-**By:** Babuni.
-
 ## What the available records establish
 
 The creative direction for this project came from my interest in giving multiple action-bar buttons distinct expressive rhythms. The original repository name was **ROARRunlimited**; it is now **MultiActionEmotes**. The precise individual contributions to the early implementation are not fully established by the surviving code history.
 
 The original README, `ROARRunlimited.lua`, TOC, MIT license and dated Git changes establish the implementation and the visible evolution from physical-slot-indexed settings to numbered instances. They do **not** contain a complete human–AI conversation indicating who individually proposed every API, command or phrase.
 
-My original “action bar into a war drum” metaphor belongs to the project record. Do not attribute this direction to an assistant simply because an assistant is documenting it later.
+The phrase “action bar into a war drum” came from me. Do not attribute this direction to an assistant simply because an assistant is documenting it later.
 
 ## AI contribution in the 2026-10-26 documentation pass
 
@@ -25,7 +23,7 @@ These are **research, technical interpretation and writing/editing contributions
 
 ## Future development record
 
-For every substantial implementation, record the human request and rationale, AI options and their limitations, explicit creator decisions, code/document paths and Git references, tests actually run and their observations, and unverified concerns. Mark proposals as proposals; mark retrospective interpretation as inference.
+For every substantial implementation, record the human request and rationale, AI options and their limitations, explicit creative decisions, code/document paths and Git references, tests actually run and their observations, and unverified concerns. Mark proposals as proposals; mark retrospective interpretation as inference.
 
 Do not publish sensitive private conversations, credentials or unapproved personal information in portfolio documents.
 
@@ -36,3 +34,7 @@ After renaming the GitHub repository to **MultiActionEmotes**, I directed an AI 
 ## Related development history
 
 Multi Action Emotes (originally ROARRunlimited) made a major advance by supporting multiple independently configured watched-action-slot instances. Its **four built-in emote tokens**—ROAR, CHARGE, CHEER, FLEX—form a fixed Lua array; `slotX`, `chanceX` and `timerX` configure each instance, but there is **no command to add a new emote token**. Editable registries appear in the subsequent Roar Guild Addon and Wrath port. See [the full comparative record](EMOTE_FAMILY_HISTORY.md) for the wider evolution.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
