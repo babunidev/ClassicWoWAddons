@@ -17,3 +17,7 @@ No live AI character, real-time external bridge, game-client compatibility test 
 ## Recording later work
 
 For meaningful changes, preserve my direction and choices, AI's specific contributions, important rejected alternatives, affected paths and commit, and testing results. Keep the development journal a concise first-person account.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
