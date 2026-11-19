@@ -50,9 +50,9 @@ These shifts are supported by dated Git changes. The original discussion and app
 
 ## Project documentation
 
-- [Concept and intended experience](CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Writing/content inventory](docs/CONTENT.md)
+- [Concept and intended experience](docs/CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Writing/content inventory](docs/CONTENT.md)
 - [Technical architecture](docs/ARCHITECTURE.md) · [Decisions and alternatives](docs/DECISIONS.md) · [Development history](docs/DEVLOG.md)
-- [Roadmap and verification backlog](ROADMAP.md) · [Dated changelog](CHANGELOG.md)
+- [Roadmap and verification backlog](docs/ROADMAP.md) · [Dated changelog](CHANGELOG.md)
 - [Human–AI contribution method](docs/AI_COLLABORATION.md) · [Development instructions](AGENTS.md)
 
 **Documentation evidence:** source, manifest, and selected Git commit diffs. **Verification:** static repository inspection and Markdown-link checks only; no in-game execution.
