@@ -78,9 +78,9 @@ The project is released under its existing **MIT license**, which credits **Babu
 
 ## Development documentation
 
-- [Concept](CONCEPT.md) · [Experience design](docs/DESIGN.md) · [Prompt/content inventory](docs/CONTENT.md)
+- [Concept](docs/CONCEPT.md) · [Experience design](docs/DESIGN.md) · [Prompt/content inventory](docs/CONTENT.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Decisions and open questions](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
-- [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer rules](AGENTS.md)
 
 **Attribution policy:** The project and creative direction are Babuni.dev's. Git diffs substantiate historical code/text changes, not unrecorded discussions or user approvals.

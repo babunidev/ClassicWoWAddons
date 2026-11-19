@@ -18,7 +18,7 @@ Separate **user direction**, **AI suggestion**, **iteration**, **decision**, **a
 
 ## Implementation discipline
 
-1. Read `README.md`, `CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DECISIONS.md`, `docs/DESIGN.md`, `docs/CONTENT.md` and `WorkThatGodBod.lua`.
+1. Read `README.md`, `docs/CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DECISIONS.md`, `docs/DESIGN.md`, `docs/CONTENT.md` and `WorkThatGodBod.lua`.
 2. Do not change chat routing, saved-data schema, prompt pool, probability or cooldown semantics without Babuni's direction.
 3. Maintain target WoW 1.12/Lua 5.0 conventions unless explicitly changed.
 4. Preserve the delegation to original `UseAction`, and review conflicts with other action-hook addons.
@@ -31,3 +31,7 @@ The 2026-10-26 update was strictly documentary and did not alter gameplay.
 ## Repository-local documentation standard
 
 Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.
