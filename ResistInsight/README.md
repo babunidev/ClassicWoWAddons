@@ -1,0 +1,125 @@
+# ResistInsight
+
+**By:** Babuni  
+**Status:** Finished; maintenance only  
+**Formerly:** BuxbrewResist
+
+While playing a warrior on a private World of Warcraft server, resistances became one of the mechanics I most enjoyed. The character panel showed resistance values but did little to explain what they meant in a fight. Making this small addon helped me understand the calculations myself, then put that explanation somewhere useful: directly into the tooltips.
+
+**ResistInsight** is my original WoW 1.12 resistance-explanation addon. It adds estimated damage reduction, partial-resist outcomes and comparisons to the character panel, with more detail available through `/buxres`. Even as a niche project, making it was particularly rewarding.
+
+This version began as **BuxbrewResist** and later became the predecessor of [ResistForever](https://github.com/babunidev/ResistForever), which has already been ported for a different game client. The two projects must not be treated as mechanically identical. ResistInsight is finished as a personal project: **no further features are planned**, but bugs and compatibility problems reported by players can still receive fixes.
+
+The repository was renamed to **ResistInsight** without changing the installed addon's historical `BuxbrewResist` filenames, folder name, TOC title or `/buxres` command. These are intentional, not leftovers to rename blindly.
+
+The addon was made for a private-server WoW 1.12 environment, including the Turtle WoW / Octo WoW audience. Current compatibility with every server version or launcher has not been retested during this documentation update.
+
+For a problem with the existing addon, contact **babunigaming@gmail.com**. Include the game/client version, the symptom and how to reproduce it. Maintenance is reactive rather than a scheduled development effort.
+
+## Installation
+
+1. **Exit the game completely.** If you already copied the addon while the game was running, close the game and start it again.
+2. Place the `BuxbrewResist` folder inside your game's `Interface\AddOns` folder. The files should be directly inside it:
+
+   ```text
+   Interface\AddOns\BuxbrewResist\BuxbrewResist.toc
+   Interface\AddOns\BuxbrewResist\BuxbrewResist.lua
+   ```
+
+3. Start the game. At character selection, click **AddOns** and make sure **BuxbrewResist** is enabled.
+4. Log in and open your character panel to try it.
+
+**Installing a new addon requires a full game restart.** `/reload` refreshes addons the client already knows about; it does not make a newly installed addon appear. Logging out to character selection is not enough either.
+
+If BuxbrewResist is missing from the AddOns list, check that you installed it in the same game folder you launch and that there is no extra folder around it (such as `BuxbrewResist\BuxbrewResist\BuxbrewResist.toc`). Then restart the game.
+
+For edits to the Lua code of an addon that is already loaded, `/reload` is enough. After installing an update, a full restart is the simplest way to ensure all changes are picked up.
+
+## Using the addon
+
+Open your character panel (normally **C**) and hover over **Arcane, Fire, Nature, Frost, or Shadow** resistance. BuxbrewResist adds a section below the normal game tooltip. Stats are read each time you hover, so move your mouse away and back after changing gear or buffs.
+
+The added section shows:
+
+- **Resistance-only average reduction:** the estimated damage reduction across many spells, highlighted in green. It does not mean every spell loses that much damage.
+- **Damage reduced per spell / Chance:** the estimated chances of taking full damage or resisting 25%, 50%, 75%, or all of a spell's damage.
+- **Total gain from +10 resistance:** how much the total estimated average would increase with another 10 resistance. This is a percentage-point gain: going from 20% to 23% is a gain of 3 points, shown as `+3%`.
+- **Total vs level +3:** the combined estimate against an attacker three levels above you, using a 1% base spell-miss assumption.
+- **Base spell miss (assumed):** 4% against a same-level caster with no spell-hit bonuses.
+- **Total expected average reduction:** resistance plus base misses, highlighted at the bottom. Even at 0 resistance, this total is 4%.
+- **Resistance cap:** the cap used by the model against an attacker of your level, followed by how much more resistance you need to reach it.
+
+The main estimate assumes an attacker at your level. **Negative resistance shows a negative reduction in red**, plus an **Extra damage taken (estimate)** row. For example, at level 60, -30 Fire resistance gives an estimated -10% reduction: a 100-damage Fire hit would become 110 damage before other modifiers. The partial-resist table is hidden while resistance is negative.
+
+## Chat commands
+
+| Command | What it does |
+| --- | --- |
+| `/buxres` | Shows an overview of your stats in chat. |
+| `/buxres shadow` | Shows detailed estimates for Shadow resistance. |
+| `/buxres fire` | Shows detailed estimates for Fire resistance. |
+| `/buxres physical` | Shows the addon's armor-reduction calculation. |
+
+Available names are `physical`, `holy`, `fire`, `nature`, `frost`, `shadow`, and `arcane`. Capitalization does not matter. Unique prefixes such as `sh` also work; use `fi` or `fr` to distinguish Fire from Frost. Physical and Holy have separate summaries rather than the magic partial-resist breakdown.
+
+## Understanding the estimates
+
+### Direct damage, DoTs, and spells that resist completely
+
+**Direct damage** happens in a hit: a warlock's **Shadow Bolt** is a non-binary example, meaning its damage can be partially resisted. When a spell allows partial resistance, only part of that damage may get through: a 1,000-damage hit with a 25% partial resist deals 750 damage.
+
+**Damage over time (DoT)** happens in ticks, like a warlock's **Corruption**. There are two different questions: did the spell land, and how much damage does a tick deal afterward? A 100-damage tick with a 25% partial resist deals 75. That illustrates the outcome, not its chance. Tick rules depend on the spell, so the addon does not present one universal DoT percentage.
+
+**Binary** means an all-or-nothing resistance check. A mage's **Frostbolt** is a Classic-reference example because it combines damage with a slow: the spell lands or is rejected, rather than having its initial effect partially reduced. Being a DoT or a direct spell does not by itself tell you all its resistance rules. The Classic reference also treats ticks from binary spells specially; this addon does not have a verified model for each spell.
+
+**A spell can fail at 0 resistance.** The separate spell-hit check can also produce a “Resist” message in Vanilla. The Classic baseline is 4% spell miss between equal-level opponents before spell-hit bonuses and other modifiers, normally with a 1% minimum. This is an example, not a prediction for every enemy. The addon includes the assumed baseline in its total estimate. Enemy spell-hit bonuses and special spell rules are unknown, so this is an assumed scenario, not a measurement of your current opponent.
+
+The tooltip keeps the numbers compact and puts the combined total at the bottom; explanations and spell examples are in chat. Use **`/buxres fire`**, **`/buxres shadow`**, or another school name for the full guide: your current estimates, a worked 1,000-damage example, the gain from +10 resistance, a comparison against a higher-level attacker, resistance caps, tick examples, binary checks, and spell misses. Negative resistance gets the same explanation alongside the red vulnerability estimate. Examples exclude crits, absorbs, and other damage modifiers.
+
+### The total includes base spell misses
+
+The direct-damage total is `miss + (1 - miss) * resistanceAverage`. This layers base misses onto the addon's existing approximation without counting avoided damage twice. It is not simply resistance reduction plus four percentage points.
+
+At **level 45 with 42 Fire resistance**, the resistance-only estimate is **11.25%**. With the assumed **4%** base miss chance, the total is **14.8%**: an incoming 1,000-damage cast averages **852 damage**, compared with **960** from base misses alone. At level 60 with -30 resistance, the -10% vulnerability estimate combines with misses to give **-5.6% total reduction** (1,056 damage per 1,000-damage cast), shown in red.
+
+The +10 comparison, higher-level comparison, and chat overview also use totals. The resistance buckets remain resistance-only. The same-level cap is still a resistance cap; adding misses does not change it. The combined direct-damage estimate is not a universal DoT or binary-spell formula. Binary rejection in chat follows the Classic reference's combined failure roll (base miss plus the resistance contribution, capped at 100%).
+
+### How the numbers are calculated
+
+These numbers come from a legacy approximation, **not measured server probabilities**. Treat them as a guide when comparing resistance values, not a guarantee of what the next spell will do. The binary-spell estimate in detailed chat output refers to an all-or-nothing resist model; it should not be read as a universal chance for every damage-over-time or crowd-control spell.
+
+For readers interested in the calculation, the model starts with `min(0.75, max(0, resistance / (5 * max(attackerLevel, 20)) * 0.75))`, builds a distribution of partial-resist outcomes, and weights each outcome by its chance. The displayed average can differ from that starting value. Chat, tooltips, and the +10 comparison use the same weighted-average calculation.
+
+For negative resistance, the vulnerability estimate is `resistance / (5 * max(playerLevel, 20))`. This follows the CMaNGOS Classic reference implementation: it uses your level and does not apply the positive-resistance formula's 0.75 multiplier. Actual server behavior has not been verified. The same negative estimate is used in tooltips and chat.
+
+
+Implementation references:
+
+- [Vanilla character resistance tooltip scripts](https://github.com/MOUZU/Blizzard-WoW-Interface/blob/master/1.12.1/FrameXML/PaperDollFrame.xml)
+- [CMaNGOS Classic resistance implementation](https://github.com/cmangos/mangos-classic/blob/master/src/game/Entities/Unit.cpp), `CalculateEffectiveMagicResistancePercent` and `CalculateSpellResistChance`. This is a reference implementation, not confirmation of actual server behavior.
+
+## Screenshots
+
+Nature resistance:
+
+![Nature resistance tooltip showing average damage reduction and resist chances](screenshots/nature-resistance.png)
+
+Shadow resistance:
+
+![Shadow resistance tooltip showing average damage reduction and resist chances](screenshots/shadow-resistance.png)
+
+
+## Evidence and status
+
+Original source audit: reviewed on 2026-10-26 against `main` at [0691901](https://github.com/babunidev/ResistInsight/commit/06919016c8e0e11041fb633920b507a91058dd97). Current Lua, TOC, README and dated commit history were inspected. Source describes implementation; it does not establish successful operation. Historical intent is reconstructed only where labeled. No in-client test or automated test was executed during that audit. On 2026-11-01, the documentation was revised to reflect my account of the project's origin and its finished, maintenance-only status. The existing source, tests, assets and addon metadata were not altered.
+
+## Documentation
+
+- [Concept](docs/CONCEPT.md) · [Design](docs/DESIGN.md) · [Content](docs/CONTENT.md)
+- [Architecture](docs/ARCHITECTURE.md) · [Decisions](docs/DECISIONS.md)
+- [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md) · [Development journal](docs/DEVLOG.md)
+- [AI collaboration](docs/AI_COLLABORATION.md) · [Contributor instructions](AGENTS.md)
+
+## License
+
+Original addon software is licensed under [MIT](LICENSE). Game-owned and independently sourced media remain under their respective terms.
