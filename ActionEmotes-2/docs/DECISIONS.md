@@ -1,0 +1,46 @@
+# Action Emotes #2 — design decisions, evidence and uncertainties
+
+**Creative authority:** Babuni.  
+**Evidence standard:** actual README, Lua/TOC, and Git diffs distinguish implementation from historical approvals.
+
+## Observable creative and technical choices
+
+| Topic | Source-backed current outcome | What remains unknown |
+| --- | --- | --- |
+| Roleplay text over combat automation | `EMOTES` and `SendChatMessage(..., "EMOTE")`; original `UseAction` delegated | Exact original wording of the creator's design brief |
+| One watched action slot | `WATCH_SLOT`, `/mae watch`, `/mae slot` | Why this was preferred to aura/cast triggers |
+| Sparse public output | `EMOTE_COOLDOWN = 90` | Why precisely 90 seconds was chosen |
+| Per-character preference | TOC `SavedVariablesPerCharacter` | Whether sharing between characters was considered |
+| One large random text pool | 215 strings sampled uniformly | Whether subgroups/weights were discussed |
+| Female, joyous battle persona | Third-person “her” prose, weapon/armor/roar motifs | Exact canonical identity beyond the in-code name |
+| Text-based configuration | `/mae` command router | Whether a GUI was deliberately rejected |
+
+Do **not** elevate absent alternatives to “rejected” without stronger evidence.
+
+## A concrete creative iteration: September to October 2025
+
+The initial commit (`1225f8f`) already used the name MadAxeBuxbrew and an emphatic, rowdy emote style, with many fist, tavern and suggestive references. A dated `Buxbrew.lua` update (`a4b4892`, **2025-10-02**) substantially expanded the text and replaced much of that imagery with weapon and armor gestures. This is a **verified direction of the changed text**, not a verified account of a conversation, disagreement or reason for rewriting it.
+
+An early manifest edit (`7d24dfd`) changed title and loaded filename to Buxbrew. The internal identifiers were left as MadAxeBuxbrew, which is not necessarily an error.
+
+## Technical questions to resolve
+
+1. Should the Lua 5.0 parser use `string.find` instead of `string.match`? It is a compatibility concern, not fixed here.
+2. How should the addon behave alongside another global `UseAction` hook?
+3. Does a 90-second cooldown match the creator's desired chat presence in practice?
+4. Does the internal MadAxe persona correspond to any separate canonical character?
+5. Should the repository be distributed under an explicit software license?
+
+No game rules were changed and no new feature choice was made in this documentation pass.
+
+## November 2026 — project identity
+
+The repository was renamed **ActionEmotes-2** at my direction, with the display title **Action Emotes #2**. The installed addon still uses the original **Buxbrew** and `MadAxeBuxbrew` identifiers. My AI assistant updated the documentation; no runtime migration was attempted. This remains separate from **Action Emotes #1**.
+
+## Related development history
+
+Action Emotes #2 (Buxbrew/MadAxeBuxbrew) is the **written-roleplay branch** of the same action-slot idea: its Lua holds 215 fixed custom text emotes, rather than a player-editable list of native emote tokens. Its per-character configuration and 90-second cooldown distinguish it from the earlier BuxbrewCharge and later ROAR systems. The complete [source-grounded development timeline](EMOTE_FAMILY_HISTORY.md) distinguishes related experiments and later revisions.
+
+## 2026-11-13 — Licensing decision
+
+To make the reuse terms explicit, I approved MIT for original addon software. This applies only to material for which the relevant rights can be granted; third-party contributors keep their own credits and licenses. AI assistance committed the license notice and updated project-facing documentation. This was a legal/documentation change, not a runtime feature or test.
