@@ -115,9 +115,9 @@ Original source audit: reviewed on 2026-10-26 against `main` at [0691901](https:
 
 ## Documentation
 
-- [Concept](CONCEPT.md) · [Design](docs/DESIGN.md) · [Content](docs/CONTENT.md)
+- [Concept](docs/CONCEPT.md) · [Design](docs/DESIGN.md) · [Content](docs/CONTENT.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Decisions](docs/DECISIONS.md)
-- [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md) · [Development journal](docs/DEVLOG.md)
+- [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md) · [Development journal](docs/DEVLOG.md)
 - [AI collaboration](docs/AI_COLLABORATION.md) · [Contributor instructions](AGENTS.md)
 
 ## License

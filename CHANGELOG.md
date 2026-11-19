@@ -2,6 +2,10 @@
 
 **By:** Babuni
 
+## 2026-11-19 — documentation moved into `docs/`
+
+- Moved `CONCEPT.md` and `ROADMAP.md` into `docs/`. The root keeps only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md`; links to the moved files and the documentation rules in `AGENTS.md` were updated. No code changed. Claude Code (Claude Opus 5.5).
+
 ## 2026-11-01 — project history and maintenance status
 
 - Clarified my original reason for making the addon: playing a warrior on a private server, enjoying the resistance mechanic, and wanting tooltips that explain it. Learning the model through development was part of the experience.

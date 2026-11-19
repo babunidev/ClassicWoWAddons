@@ -26,7 +26,7 @@ These decisions were clarified directly in November 2026. They do not imply that
 
 ## Deferred investigations, not approved work
 
-Client compatibility, level edge cases, negative resistance, tooltip interactions, DoT/binary exceptions and model accuracy warrant investigation **only if maintenance requires it**. The November documentation pass made no gameplay change and ran no tests. See [ROADMAP.md](../ROADMAP.md) for the maintenance boundary.
+Client compatibility, level edge cases, negative resistance, tooltip interactions, DoT/binary exceptions and model accuracy warrant investigation **only if maintenance requires it**. The November documentation pass made no gameplay change and ran no tests. See [ROADMAP.md](ROADMAP.md) for the maintenance boundary.
 
 ## 2026-11-13 — Licensing decision
 
