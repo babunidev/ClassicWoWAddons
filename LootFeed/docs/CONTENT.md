@@ -41,4 +41,4 @@ The current Git tree includes three screenshots:
 - [Item tooltip inspection](../Screenshots/item-tooltip.png)
 - [Quest Item marking](../Screenshots/quest-item.png)
 
-A [published v0.2.2 release](https://github.com/babunidev/LootFeed/releases/tag/v0.2.2) supplies ZIP and checksum files. Screenshots and assets belong in portfolio material only with proper creative/right-holder review. The repo has **no LICENSE**; do not silently assign reuse rights or mistake WoW's game-client art for custom original project images.
+A [published v0.2.2 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) supplies ZIP and checksum files. Screenshots and assets belong in portfolio material only with proper creative/right-holder review. The repo has **no LICENSE**; do not silently assign reuse rights or mistake WoW's game-client art for custom original project images.

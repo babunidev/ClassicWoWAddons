@@ -47,4 +47,4 @@ The addon bundles **no screenshots, custom icons, fonts or images**. Buff textur
 
 A real **MIT License** is included, with **2026 Babuni.dev** copyright. The license applies to the repository's software/documentation as written; it doesn't transfer ownership of Blizzard game assets to Babuni.dev or an AI assistant.
 
-The published [v1.2.0 release](https://github.com/babunidev/GroupBuffToggle/releases/tag/v1.2.0) contains a ZIP and checksum, but those bytes were not downloaded or compared during this documentation task. No private aura state was exported.
+The published [v1.2.0 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) contains a ZIP and checksum, but those bytes were not downloaded or compared during this documentation task. No private aura state was exported.

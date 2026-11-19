@@ -11,7 +11,7 @@
 - Replaced initial brief repository docs with a sourced concept, user guide, architecture, design, content inventory, decisions, roadmap, development narrative and AI collaboration record.
 - Documented the distinction between **native `GetTotemInfo`** and the fallback's **attempt-based predicted totem durations**.
 - Clarified Shaman-only display, four-element ordering, 23 fallback spells, shield/weapon behavior, warning semantics, persistent state, hook interaction risks and original Vanilla support uncertainties.
-- Verified a published [v1.3.7 release](https://github.com/babunidev/TotemTimers/releases/tag/v1.3.7) with ZIP/checksum metadata. No archive byte comparison or runtime test conducted here.
+- Verified a published [v1.3.7 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) with ZIP/checksum metadata. No archive byte comparison or runtime test conducted here.
 - Changed **Markdown documentation only**; Lua/TOC, migration script and test remain unchanged.
 
 ## September 10, 2026 — initial committed Octo Totem Timers
@@ -24,7 +24,7 @@ This is the **first visible commit**, not proof that versions 1.0–1.3.6 were e
 
 Commit **`cdef17ea0b3f`**, “Use provider-neutral names and client compatibility descriptions,” renamed **Octo Totem Timers** to **Totem Timers**, the folder/module/frames/slash aliases, and the persisted root from `OctoTotemTimersDB` to **`TotemTimersDB`**. It retained the addon version **1.3.7**, added **Upgrade-SavedData.ps1** and **tests/test_upgrade.ps1**, and revised README instructions.
 
-The [GitHub release v1.3.7](https://github.com/babunidev/TotemTimers/releases/tag/v1.3.7) was published September 18, containing **TotemTimers.zip** and **SHA256SUMS.txt**. Its notes state source/package syntax and migration tests passed and still recommend live-client verification. These are **historic claims**, not tests independently rerun October 27.
+The [GitHub release v1.3.7](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) was published September 18, containing **TotemTimers.zip** and **SHA256SUMS.txt**. Its notes state source/package syntax and migration tests passed and still recommend live-client verification. These are **historic claims**, not tests independently rerun October 27.
 
 ## October 26 — attribution and documentation skeleton
 

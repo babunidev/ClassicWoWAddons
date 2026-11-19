@@ -13,7 +13,7 @@ The source is intentionally narrow. The addon does not fight on the player's beh
 
 ## Why this repository deserves its own record
 
-The separate [`roar` repository](https://github.com/babunidev/BattleEmotesLegacy) already had a ROARR package on November 23, 2025. This `roarr` repository was created later the same day and began with the same basic system. Its unique visible source change is an expansion of `/roarr tutorial` from a one-line summary to **seven numbered setup instructions**.
+The separate [`roar` repository](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotesLegacy) already had a ROARR package on November 23, 2025. This `roarr` repository was created later the same day and began with the same basic system. Its unique visible source change is an expansion of `/roarr tutorial` from a one-line summary to **seven numbered setup instructions**.
 
 That addition matters for the experience. Discovering an action slot and adjusting a random-emote tool involves unfamiliar numbers and commands. A guided introduction makes a small, playful addon more approachable without replacing its text-first interface.
 

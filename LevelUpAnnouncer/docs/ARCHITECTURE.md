@@ -12,7 +12,7 @@ Despite comments calling the global a saved variable, the TOC has no SavedVariab
 
 ## Evidence and status
 
-Reviewed on 2026-10-26 against `main` at [1e068a6](https://github.com/babunidev/LevelUpAnnouncer/commit/1e068a611a4dc848416d93800c6cb087e19eaf4b). Current Lua, TOC, README and dated commit history were inspected. Source describes implementation; it does not establish successful operation. Historical intent is reconstructed only where labeled. No in-client test or automated test was executed during this documentation pass.
+Reviewed on 2026-10-26 against `main` at [1e068a6](https://github.com/babunidev/ClassicWoWAddons/commit/1e068a611a4dc848416d93800c6cb087e19eaf4b). Current Lua, TOC, README and dated commit history were inspected. Source describes implementation; it does not establish successful operation. Historical intent is reconstructed only where labeled. No in-client test or automated test was executed during this documentation pass.
 
 ## Preserved earlier documentation
 

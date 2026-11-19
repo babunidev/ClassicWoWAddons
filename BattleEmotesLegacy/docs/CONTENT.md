@@ -26,7 +26,7 @@ If `DoEmote` is absent, the Lua fallback posts the short generic string “makes
 
 ## Where the guild messages live
 
-The **ROAR guild** is part of Babuni's recollection of this project, but the current Lua contains **no invitation or recruitment text**. The separate `roarr` repository uses the same five built-in emotes with a more detailed tutorial. The later [RoarGuild](https://github.com/babunidev/RoarGuildAddon) addon contains the manually triggered randomized recruitment messages.
+The **ROAR guild** is part of Babuni's recollection of this project, but the current Lua contains **no invitation or recruitment text**. The separate `roarr` repository uses the same five built-in emotes with a more detailed tutorial. The later [RoarGuild](https://github.com/babunidev/ClassicWoWAddons/tree/main/RoarGuildAddon) addon contains the manually triggered randomized recruitment messages.
 
 ## Editorial maintenance
 

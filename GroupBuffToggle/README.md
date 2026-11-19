@@ -21,7 +21,7 @@ World of Warcraft/
             └── GroupBuffToggle.lua
 ```
 
-Restart WoW or run `/reload`. Enable **Group Buff Toggle** at character selection. The [published v1.2.0 release](https://github.com/babunidev/GroupBuffToggle/releases/tag/v1.2.0) provides [GroupBuffToggle.zip](https://github.com/babunidev/GroupBuffToggle/releases/download/v1.2.0/GroupBuffToggle.zip) and a SHA256SUMS text file. The release exists; its files were **not downloaded and checksum-verified in this documentation audit**.
+Restart WoW or run `/reload`. Enable **Group Buff Toggle** at character selection. The [published v1.2.0 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) provides [GroupBuffToggle.zip](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) and a SHA256SUMS text file. The release exists; its files were **not downloaded and checksum-verified in this documentation audit**.
 
 The addon has no required external library and no configuration window. It is specifically built for **default Blizzard PartyMemberFrame1–4 and TargetFrame anchors**, not for substitute party/target frames from other UI addons.
 

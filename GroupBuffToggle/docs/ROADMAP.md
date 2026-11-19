@@ -12,7 +12,7 @@
 - Four event triggers and **0.5-second** periodic refresh; slash controls via `/groupbuffs`.
 - Original Sept 10 implementation and same-day independent-controls refinement; Sept 18 rename/upgrade helper.
 - Explicit [MIT License](../LICENSE) with Babuni.dev notice.
-- A [v1.2.0 published release](https://github.com/babunidev/GroupBuffToggle/releases/tag/v1.2.0) including ZIP and SHA256SUMS. Its historical notes **report** syntax/migration checks; not rerun here.
+- A [v1.2.0 published release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) including ZIP and SHA256SUMS. Its historical notes **report** syntax/migration checks; not rerun here.
 
 ## P0 — verify intended 1.12 behavior
 
@@ -37,7 +37,7 @@
 ## P2 — continuity and packaging
 
 15. Execute [tests/test_upgrade.ps1](../tests/test_upgrade.ps1) in PowerShell and capture actual output. Test a backup copy of old OctoGroupBuffToggle settings with the game shut down; never overwrite sole user data.
-16. Download the [v1.2.0 ZIP](https://github.com/babunidev/GroupBuffToggle/releases/tag/v1.2.0) and compare it with published SHA256SUMS; inspect content against the current manifest. Asset bytes were not inspected here.
+16. Download the [v1.2.0 ZIP](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) and compare it with published SHA256SUMS; inspect content against the current manifest. Asset bytes were not inspected here.
 17. Retain and verify the existing **MIT LICENSE** and Babuni.dev copyright in packaging and future copies.
 18. Consider adding a focused stubbed-Lua test for four-switch semantics and unit-slot/tooltip assignment, but do not pretend that mocks prove WoW-client behavior.
 

@@ -1,7 +1,7 @@
 # Roar Guild Addon Wrath / ROARTrigger
 
 **By:** Babuni  
-**Repository:** [`babunidev/RoarGuildAddonWrath`](https://github.com/babunidev/RoarGuildAddonWrath)  
+**Repository:** [`babunidev/RoarGuildAddonWrath`](https://github.com/babunidev/ClassicWoWAddons/tree/main/RoarGuildAddonWrath)  
 **Installable addon name:** **ROARTrigger**  
 **Version:** **1.32**  
 **Target client:** World of Warcraft **Wrath 3.3.5**, interface **30300**  
@@ -111,7 +111,7 @@ The current Lua source includes **33** randomized `<ROAR>` recruiting messages. 
 
 ## What this repository is—and is not
 
-This is the **Wrath 3.3.5-focused ROARTrigger**, in the `RoarGuildAddonWrath` repository. It shares patterns and historical source naming with [RoarGuild](https://github.com/babunidev/RoarGuildAddon), but it has a separate commit sequence, target client and package name. **It does not include the Roarboard message-board feature** present in the later 1.33 RoarGuild repo, and it does not contain the GodBod exercise system.
+This is the **Wrath 3.3.5-focused ROARTrigger**, in the `RoarGuildAddonWrath` repository. It shares patterns and historical source naming with [RoarGuild](https://github.com/babunidev/ClassicWoWAddons/tree/main/RoarGuildAddon), but it has a separate commit sequence, target client and package name. **It does not include the Roarboard message-board feature** present in the later 1.33 RoarGuild repo, and it does not contain the GodBod exercise system.
 
 For source provenance and how the package evolved, see [the journal](docs/DEVLOG.md). This repository is released with an [MIT license](LICENSE) credited to Babuni. During the 2026-10-26 documentation pass, **Lua, TOC and LICENSE were left untouched**.
 

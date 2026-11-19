@@ -21,7 +21,7 @@ The cooldown is consumed before the probability roll, including when no emote is
 
 ## Installation and commands
 
-**Important:** The GitHub repository is now [StealthEmotes](https://github.com/babunidev/StealthEmotes), but the installable addon still uses its historical name **Amazin**. The Lua file, TOC, saved variables and slash command have **not** been renamed.
+**Important:** The GitHub repository is now [StealthEmotes](https://github.com/babunidev/ClassicWoWAddons/tree/main/StealthEmotes), but the installable addon still uses its historical name **Amazin**. The Lua file, TOC, saved variables and slash command have **not** been renamed.
 
 Place `Amazin.lua` and `Amazin.toc` in `Interface/AddOns/Amazin/`, restart the client and enable the addon. Use `/amazin watch` and press the intended action button to identify its slot, then set `/amazin slot <n>` and turn watch mode off.
 

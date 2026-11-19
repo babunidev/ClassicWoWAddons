@@ -21,7 +21,7 @@ World of Warcraft/
             └── TotemTimers.lua
 ```
 
-The [published v1.3.7 release](https://github.com/babunidev/TotemTimers/releases/tag/v1.3.7) contains a [TotemTimers.zip](https://github.com/babunidev/TotemTimers/releases/download/v1.3.7/TotemTimers.zip) and a checksum file. Extract the **TotemTimers** folder into Interface/AddOns or copy the two files above from this repo. Restart the client or use `/reload`. The manifest loads **one Lua source** and uses no external addon dependency.
+The [published v1.3.7 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) contains a [TotemTimers.zip](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) and a checksum file. Extract the **TotemTimers** folder into Interface/AddOns or copy the two files above from this repo. Restart the client or use `/reload`. The manifest loads **one Lua source** and uses no external addon dependency.
 
 The code checks `UnitClass("player")` when entering the world. If the player is **not a Shaman**, it unregisters addon events and does not create the display. That does not mean every slash command is gated by class; commands are registered outside the class check and should not be used on unsupported classes without testing.
 

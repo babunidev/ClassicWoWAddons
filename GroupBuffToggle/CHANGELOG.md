@@ -30,7 +30,7 @@ This change is visible in the commit; original debugging/user dialogue was not a
 
 **`59f925060d5a` (“Use provider-neutral names and client compatibility descriptions”)** renamed source/manifest from OctoGroupBuffToggle to **GroupBuffToggle**, changed saved root **OctoGroupBuffsDB → GroupBuffsDB**, and created PowerShell migration tooling and a synthetic saved-data fixture. The addon version remained **1.2.0**.
 
-The published [v1.2.0 release](https://github.com/babunidev/GroupBuffToggle/releases/tag/v1.2.0) dates to September 18 and contains **GroupBuffToggle.zip** plus **SHA256SUMS.txt**. Its notes report packaging/syntax/migration checks and still recommend game-client verification; this audit didn't rerun them.
+The published [v1.2.0 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) dates to September 18 and contains **GroupBuffToggle.zip** plus **SHA256SUMS.txt**. Its notes report packaging/syntax/migration checks and still recommend game-client verification; this audit didn't rerun them.
 
 ## 2026-10-26 — attribution and first documentation scaffold
 

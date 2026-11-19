@@ -19,4 +19,4 @@ Tooltips hook `MagicResFrame1..5`, preserve the previous `OnEnter` handler and u
 
 ## Evidence and verification
 
-The source audit dated **2026-10-26** examined the Lua, TOC, README, test harness and selected commits at [0691901](https://github.com/babunidev/ResistInsight/commit/06919016c8e0e11041fb633920b507a91058dd97). The November documentation revision rechecked the current source and metadata; neither audit established live gameplay compatibility or measured server behavior. The Python/Lupa test harness exists but was not executed in this pass.
+The source audit dated **2026-10-26** examined the Lua, TOC, README, test harness and selected commits at [0691901](https://github.com/babunidev/ClassicWoWAddons/commit/06919016c8e0e11041fb633920b507a91058dd97). The November documentation revision rechecked the current source and metadata; neither audit established live gameplay compatibility or measured server behavior. The Python/Lupa test harness exists but was not executed in this pass.

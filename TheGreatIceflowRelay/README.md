@@ -82,4 +82,4 @@ Bringing this game to a modern World of Warcraft client is an explicit creative 
 - [Technical architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Decisions](docs/DECISIONS.md)
 - [Development journal](docs/DEVLOG.md) · [Changelog](CHANGELOG.md) · [AI collaboration](docs/AI_COLLABORATION.md) · [Contributor guidance](AGENTS.md)
 
-The [original 2025 README](https://github.com/babunidev/TheGreatIceflowRelay/blob/03b275d/README.md) remains available in Git history. This revision expands the story with additional first-person recollections and a clearer separation between the intended rules and implemented behavior.
+The [original 2025 README](https://github.com/babunidev/ClassicWoWAddons/blob/03b275d/README.md) remains available in Git history. This revision expands the story with additional first-person recollections and a clearer separation between the intended rules and implemented behavior.

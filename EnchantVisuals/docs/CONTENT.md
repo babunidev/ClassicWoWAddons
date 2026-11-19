@@ -42,7 +42,7 @@ They depict World of Warcraft game assets; images do not imply ownership over or
 
 ## Release identity and scope
 
-Current published [v1.0.1](https://github.com/babunidev/EnchantVisuals/releases/tag/v1.0.1), dated September 18, contains **EnchantVisuals-1.0.1.zip** and **SHA256SUMS.txt**. The older [v1.0.0 tag](https://github.com/babunidev/EnchantVisuals/releases/tag/v1.0.0) is preserved as a historical entry with a superseded download.
+Current published [v1.0.1](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads), dated September 18, contains **EnchantVisuals-1.0.1.zip** and **SHA256SUMS.txt**. The older [v1.0.0 tag](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) is preserved as a historical entry with a superseded download.
 
 The DLL is named **EnchantVisualsDiagnostic.dll**, paired with **EnchantVisualsDiagnostic.ini** and logs written as **EnchantVisualsDiagnostic.log**. The external loader is configured through a `dlls.txt` line in the game directory.
 

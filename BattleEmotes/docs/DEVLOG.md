@@ -11,7 +11,7 @@ The setting is a small act of player-directed expression. Chance, cooldown and a
 
 ## Earlier context: the other `roar` repository
 
-The separate [`roar` repository](https://github.com/babunidev/BattleEmotesLegacy) began a day earlier, on 2025-11-22. Its first ROAR implementation noted that it had been rewritten from BuxbrewCharge. By November 23, that repository had passed through several naming changes and had committed ROARR files with a six-second default cooldown and the five emote tokens ROAR, CHARGE, CHEER, BORED and FLEX.
+The separate [`roar` repository](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotesLegacy) began a day earlier, on 2025-11-22. Its first ROAR implementation noted that it had been rewritten from BuxbrewCharge. By November 23, that repository had passed through several naming changes and had committed ROARR files with a six-second default cooldown and the five emote tokens ROAR, CHARGE, CHEER, BORED and FLEX.
 
 This other repository's history provides **context**, but it is not the development history of `babunidev/BattleEmotes`. It would be misleading to copy every earlier filename experiment into this repository's changelog or imply this repo contained those deleted/renamed files.
 

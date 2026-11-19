@@ -53,7 +53,7 @@ The installer was also revised. The old script had some filename-based recogniti
 
 This improvement addresses an important user-experience concern. Changing a binary's file name while a loader references it can leave multiple effects active, disabled settings reset or someone else's DLL touched. The hash-based approach aims to avoid confusing **ownership** of files with their names. The audit didn't execute the script; it interprets that purpose from implementation and tests.
 
-The [v1.0.1 public release](https://github.com/babunidev/EnchantVisuals/releases/tag/v1.0.1) was published September 18 with a ZIP and SHA256SUMS text file. Its release notes say the x86 build, visual-pair tests, and installer upgrade/backup/removal/checksum fixtures passed. They also **explicitly state that the renamed rebuilt binary had not yet been validated in game**.
+The [v1.0.1 public release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) was published September 18 with a ZIP and SHA256SUMS text file. Its release notes say the x86 build, visual-pair tests, and installer upgrade/backup/removal/checksum fixtures passed. They also **explicitly state that the renamed rebuilt binary had not yet been validated in game**.
 
 This difference is essential. It would be inaccurate to transfer the previous build's September 11 game-test outcome to the September 18 DLL merely because its visual algorithm is nominally the same. The project has test evidence for the previous binary and reported offline evidence for the rebuilt one, with a live validation gap for the latter.
 

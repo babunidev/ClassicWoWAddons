@@ -10,7 +10,7 @@
 
 Melee Start Attack connects **the player's intention to fight** to the game's ordinary auto-attacks. If you press a configured ability as a **Paladin, Warrior or Shaman** against a living, attackable target, the addon can start your basic melee swing **before** the original ability executes—even when a spell is on cooldown or you don't have enough mana or rage. It does not cast abilities for you, select targets, analyze combat performance, or replace the original game action.
 
-Unlike the earlier [WarriorStartAttack](https://github.com/babunidev/WarriorStartAttack), this version has class-specific built-in ability lists, runtime controls and a **learn-the-next-ability** feature that saves additional start/stop behaviors by class.
+Unlike the earlier [WarriorStartAttack](https://github.com/babunidev/ClassicWoWAddons/tree/main/WarriorStartAttack), this version has class-specific built-in ability lists, runtime controls and a **learn-the-next-ability** feature that saves additional start/stop behaviors by class.
 
 ## Install
 

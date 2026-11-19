@@ -53,7 +53,7 @@ The rename commit **4cea3d42** changed **Octo Battle Report** into **Battle Repo
 
 Because the product is a record of personal history, breaking SavedVariables would undermine its purpose. The repository gained **Upgrade-SavedData.ps1**, a helper that checks the old/new TOCs, creates backups, copies data without executing saved Lua and refuses to overwrite existing new data. A PowerShell fixture test modeled that migration with synthetic directories and Unicode values.
 
-A [GitHub v1.6.5 release](https://github.com/babunidev/BattleReport/releases/tag/v1.6.5) was published on **September 18**, with a ZIP and SHA256SUMS file. Its release notes **report** successful syntax, packaging and relevant fixture/regression checks; that is historical reported verification, not an independent test run in this October session. Live-client validation remains an open item.
+A [GitHub v1.6.5 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) was published on **September 18**, with a ZIP and SHA256SUMS file. Its release notes **report** successful syntax, packaging and relevant fixture/regression checks; that is historical reported verification, not an independent test run in this October session. Live-client validation remains an open item.
 
 A related constraint is Nampower. If its server spell events are already enabled, BattleReport can correlate accepted cast requests with confirmation and identify certain item triggers. Otherwise it relies on named cast-time completions and must not pretend to catch every instant ability, channel or proc.
 

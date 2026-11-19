@@ -12,7 +12,7 @@ A compact, movable loot feed for **World of Warcraft 1.12**. No dependencies.
 
 ## Install
 
-Download the published [v0.2.2 LootFeed.zip](https://github.com/babunidev/LootFeed/releases/download/v0.2.2/LootFeed.zip), extract the `LootFeed` folder into `Interface\AddOns`, and restart WoW. Enable **Loot Feed** at character select.
+Download the published [v0.2.2 LootFeed.zip](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads), extract the `LootFeed` folder into `Interface\AddOns`, and restart WoW. Enable **Loot Feed** at character select.
 
 ## Upgrade from a previous add-on name
 
@@ -89,7 +89,7 @@ The dice are drawn by the addon as a tiny five-pip symbol rather than requiring 
 
 ## Releases, tests and attribution
 
-The [published **v0.2.2 release**](https://github.com/babunidev/LootFeed/releases/tag/v0.2.2) contains **LootFeed.zip** and **SHA256SUMS.txt**. The September 18 release notes *report* passing packaging/syntax and migration checks; this October documentation review has **not** rerun them or byte-checked the ZIP. The [PowerShell migration fixture](tests/test_upgrade.ps1) uses temporary files; the helper should still be tested on **copies** of real old save files with the game closed.
+The [published **v0.2.2 release**](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) contains **LootFeed.zip** and **SHA256SUMS.txt**. The September 18 release notes *report* passing packaging/syntax and migration checks; this October documentation review has **not** rerun them or byte-checked the ZIP. The [PowerShell migration fixture](tests/test_upgrade.ps1) uses temporary files; the helper should still be tested on **copies** of real old save files with the game closed.
 
 A bundled test for **loot animation or group-roll parsing** was **not** present in the inspected repository tree. The three [current screenshots](Screenshots/loot-feed.png) illustrate the interface but do not prove every custom client environment behaves the same.
 

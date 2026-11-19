@@ -51,7 +51,7 @@ The rename made the tool's function easier to recognize independently of a named
 
 So the repository gained **`Upgrade-SavedData.ps1`** and **`tests/test_upgrade.ps1`**. The helper searches the existing saved-data folders, reads old/new TOC declarations, copies and backs up originals, and rewrites only top-level assignments without evaluating saved Lua. It refuses to overwrite an existing destination. The fixture exercises synthetic values, Unicode, backups and path/overwrite refusals. These safeguards are present in code; this October audit did not run them against any files.
 
-A public [v0.2.2 release](https://github.com/babunidev/LootFeed/releases/tag/v0.2.2) was published September 18 with an installation ZIP and SHA256SUMS file. Its release notes report packaging/syntax and migration testing, while continuing to recommend actual in-game verification. Those are **historically reported results**, not fresh test passes.
+A public [v0.2.2 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) was published September 18 with an installation ZIP and SHA256SUMS file. Its release notes report packaging/syntax and migration testing, while continuing to recommend actual in-game verification. Those are **historically reported results**, not fresh test passes.
 
 ## October 26 — making the design process part of the artifact
 

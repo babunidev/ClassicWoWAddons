@@ -6,7 +6,7 @@ Keep your permanent weapon enchant glow **and** your shaman imbue visible at the
 
 A small cosmetic client mod for the supported **World of Warcraft 1.12.1 executable**, supporting Rockbiter, Flametongue, Windfury, and Frostbrand. Your +4 weapon damage enchant can keep its blue glow while the shaman effect plays around the same weapon.
 
-**[Download EnchantVisuals v1.0.1](https://github.com/babunidev/EnchantVisuals/releases/tag/v1.0.1)**
+**[Download EnchantVisuals v1.0.1](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads)**
 
 ## In game
 
@@ -68,7 +68,7 @@ Natural imbue expiration has not yet been visually checked in game because the t
 
 Weapons whose built-in visual takes priority retain the original priority rule. Non-shaman temporary enchants are outside this mod's scope.
 
-Earlier development builds had reported login/loading failures whose cause was not conclusively established. This release rebuilds that implementation with neutral names; the rebuilt binary has not yet been validated in game. If you encounter a problem, disable the mod, restart, and report your client version and reproduction steps in [Issues](https://github.com/babunidev/EnchantVisuals/issues).
+Earlier development builds had reported login/loading failures whose cause was not conclusively established. This release rebuilds that implementation with neutral names; the rebuilt binary has not yet been validated in game. If you encounter a problem, disable the mod, restart, and report your client version and reproduction steps in [Issues](https://github.com/babunidev/ClassicWoWAddons/issues).
 
 Diagnostic logging remains enabled in `EnchantVisualsDiagnostic.log`, capped at 20,000 trace events per game session. Review logs before sharing them.
 

@@ -8,7 +8,7 @@
 
 This is my **Roar Guild Addon**, originally named **RoarGuild**. I made it in connection with the **ROAR guild**, hoping guild members would use the character emotes and invitation messages as part of our shared identity. The new name makes it clear that the guild and the addon are separate things.
 
-The GitHub repository is [RoarGuildAddon](https://github.com/babunidev/RoarGuildAddon). Its installed addon remains **RoarGuild**, with `roarguild.lua`, `roarguild.toc`, `ROGUDB` and `/rogu` unchanged.
+The GitHub repository is [RoarGuildAddon](https://github.com/babunidev/ClassicWoWAddons/tree/main/RoarGuildAddon). Its installed addon remains **RoarGuild**, with `roarguild.lua`, `roarguild.toc`, `ROGUDB` and `/rogu` unchanged.
 
 **RoarGuild** is a World of Warcraft character-expression and community addon. It connects three kinds of experience: action-button-driven emotes, welcoming recruitment language for the ROAR guild, and **Roarboard**, a peer-shared message board. The original creative description gives its center of gravity:
 

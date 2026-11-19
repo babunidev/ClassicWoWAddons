@@ -35,7 +35,7 @@ The fix's code and commit are observable; no original chat about the bug has bee
 
 **`6126df1`**, “Use provider-neutral names and client compatibility descriptions,” renamed `OctoLoot.lua`/`.toc` and the globals/database to **LootFeed**, removed provider-specific labeling, and created a PowerShell saved-data rename tool plus fixture test. New TOC version: **0.2.2**. This change altered the identity used to load old account-wide settings, so migration is part of the functional preservation story.
 
-A [public release v0.2.2](https://github.com/babunidev/LootFeed/releases/tag/v0.2.2) was published September 18 with ZIP and SHA256SUMS. Its notes **report** source/package syntax, migration tests and relevant regression checks passed. Those were **not independently rerun** in the documentation pass.
+A [public release v0.2.2](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) was published September 18 with ZIP and SHA256SUMS. Its notes **report** source/package syntax, migration tests and relevant regression checks passed. Those were **not independently rerun** in the documentation pass.
 
 ## 2026-10-26 — credit and first documentation scaffold
 

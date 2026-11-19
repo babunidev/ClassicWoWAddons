@@ -57,7 +57,7 @@ The project therefore added **`Upgrade-SavedData.ps1`** and **`tests/test_upgrad
 
 This is a modest but meaningful form of authorship: if the purpose is to make the player's game more comfortable, a name change shouldn't casually reset their chosen comfort. No migration script was executed during the October documentation audit, so the narrative distinguishes safeguards visible in code from successful execution on real saved files.
 
-A [v1.2.0 GitHub release](https://github.com/babunidev/GroupBuffToggle/releases/tag/v1.2.0) was published the same day with **GroupBuffToggle.zip** and **SHA256SUMS.txt**. The release notes report packaging/syntax and migration checks, but still recommend live in-game validation. Such notes are evidence of what was reported at release, **not** evidence that this assistant independently ran a test.
+A [v1.2.0 GitHub release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) was published the same day with **GroupBuffToggle.zip** and **SHA256SUMS.txt**. The release notes report packaging/syntax and migration checks, but still recommend live in-game validation. Such notes are evidence of what was reported at release, **not** evidence that this assistant independently ran a test.
 
 ## October 26 — proper attribution and a licensing distinction
 

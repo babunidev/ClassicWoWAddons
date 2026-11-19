@@ -6,7 +6,7 @@
 
 Five Lua modules implement personal event capture, old-client log parsing, sampled resource/health deltas, per-fight baselines, rolling 100-fight averages and a seven-tab UI. Reports start with player combat and end on combat exit. Nampower enhancement is optional. An animated, movable post-fight summary is optional and remembers settings per character. The repo has Python/Lua and PowerShell fixture tests.
 
-The [published September 18 v1.6.5 release](https://github.com/babunidev/BattleReport/releases/tag/v1.6.5) includes ZIP and checksum assets and says applicable source, regression and migration checks passed. **This October 26 documentation session did not rerun any tests** or download the archive.
+The [published September 18 v1.6.5 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) includes ZIP and checksum assets and says applicable source, regression and migration checks passed. **This October 26 documentation session did not rerun any tests** or download the archive.
 
 ## P0 — game-client truth
 

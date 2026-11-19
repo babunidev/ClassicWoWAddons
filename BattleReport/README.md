@@ -4,7 +4,7 @@
 
 **Get to know your fights.** A lightweight personal combat report for World of Warcraft 1.12. Watch your numbers live, review your last encounter, or see your average performance across up to 100 fights.
 
-**[Download v1.6.5 addon ZIP](https://github.com/babunidev/BattleReport/releases/download/v1.6.5/BattleReport.zip)** · [All releases](https://github.com/babunidev/BattleReport/releases)
+**[Download v1.6.5 addon ZIP](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads)** · [All releases](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads)
 
 ## What does it show?
 
@@ -19,7 +19,7 @@ This is a report for **your character**, not a group ranking. Pets and separatel
 
 ## Installation
 
-1. [Download **BattleReport.zip**](https://github.com/babunidev/BattleReport/releases/download/v1.6.5/BattleReport.zip) and extract it.
+1. [Download **BattleReport.zip**](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) and extract it.
 2. Copy the **BattleReport** folder into your game's **Interface\AddOns** folder.
 3. Check that the folder structure looks like this—avoid an extra folder inside another folder:
 
@@ -130,7 +130,7 @@ Recording starts when you enter combat and stops immediately when you leave it. 
 
 ## Release and verification notes
 
-The published [v1.6.5 release](https://github.com/babunidev/BattleReport/releases/tag/v1.6.5) contains BattleReport.zip and SHA256SUMS.txt. Its September 18, 2026 release notes **report** successful source/package syntax and regression/migration checks; these have **not** been independently rerun in the October 26 documentation audit. The ZIP's bytes have not been downloaded and compared with the current source in this session.
+The published [v1.6.5 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) contains BattleReport.zip and SHA256SUMS.txt. Its September 18, 2026 release notes **report** successful source/package syntax and regression/migration checks; these have **not** been independently rerun in the October 26 documentation audit. The ZIP's bytes have not been downloaded and compared with the current source in this session.
 
 Current source uses interface 11200, loads five Lua modules and stores history in **per-character BattleReportDB**. The [test harness](tests/test_report.py) needs Python lupa (Lua 5.1) and a locally supplied archived Blizzard 1.12.1 GlobalStrings.lua, deliberately excluded from Git; the [migration fixture](tests/test_upgrade.ps1) requires PowerShell. A report is an **observation**, not a guaranteed complete account of casts, item procs or exact regeneration sources.
 

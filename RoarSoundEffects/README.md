@@ -9,7 +9,7 @@
 
 **Project status: Finished — legacy addon.** The original implementation is complete and no further development is planned. The source and package remain available for players with a compatible World of Warcraft client. The manifest declares `Interface: 30300`, but successful playback and compatibility with any specific client build have not been verified in this documentation review. This is a development-lifecycle decision, not a compatibility guarantee.
 
-This is my **Roar Sound Effects** project, formerly named **ROARSounds**. I wanted the `/roar` emote to have its audible character again, using the sounds already present in the game rather than distributing replacement audio. The GitHub repository is now [RoarSoundEffects](https://github.com/babunidev/RoarSoundEffects), while the installed addon retains the **ROAR** folder and source names.
+This is my **Roar Sound Effects** project, formerly named **ROARSounds**. I wanted the `/roar` emote to have its audible character again, using the sounds already present in the game rather than distributing replacement audio. The GitHub repository is now [RoarSoundEffects](https://github.com/babunidev/ClassicWoWAddons/tree/main/RoarSoundEffects), while the installed addon retains the **ROAR** folder and source names.
 
 ROARSounds restores a missing bit of character presence to the `/roar` emote by calling **existing World of Warcraft client sound files**. When the addon receives a recognized text-emote event, it can play the appropriate built-in roar for the player's own character or another identifiable character. The sound depends on the resolved character's race and sex.
 
@@ -80,7 +80,7 @@ This repository began **April 19, 2026**, with a local-player-only emote sound r
 
 That brief, traceable sequence is documented in the [development journal](docs/DEVLOG.md). The historic source changes are verified in commits; no missing personal discussions or feature approvals have been invented.
 
-This is a **separate repository** from [`roar`](https://github.com/babunidev/BattleEmotesLegacy), [`roarr`](https://github.com/babunidev/BattleEmotes), [`ROARRunlimited`](https://github.com/babunidev/MultiActionEmotes), and [`RoarGuild`](https://github.com/babunidev/RoarGuildAddon). Those projects use similar names but different implementations.
+This is a **separate repository** from [`roar`](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotesLegacy), [`roarr`](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotes), [`ROARRunlimited`](https://github.com/babunidev/ClassicWoWAddons/tree/main/MultiActionEmotes), and [`RoarGuild`](https://github.com/babunidev/ClassicWoWAddons/tree/main/RoarGuildAddon). Those projects use similar names but different implementations.
 
 ## License and development documentation
 

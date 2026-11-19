@@ -29,7 +29,7 @@ Commit **`6fe17ecff625`** (“Use provider-neutral names and client compatibilit
 
 The installer was made more careful about recognizing earlier releases **by DLL checksum rather than filename alone**, preserving existing `EnableHooks` config, keeping unrelated loader entries, creating backups and refusing unrecognized current DLL contents. It also added `tests/test_installer.ps1` for repeat installation, upgrade, uninstall and checksum-refusal behavior.
 
-The [v1.0.1 release](https://github.com/babunidev/EnchantVisuals/releases/tag/v1.0.1), published **September 18**, distributes **EnchantVisuals-1.0.1.zip** and **SHA256SUMS.txt**. Release notes **report** successful x86 build, visual-selection tests and installer tests. They specifically warn that the **renamed rebuilt binary had not yet been revalidated in game**. No stronger runtime claim is warranted from that evidence.
+The [v1.0.1 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads), published **September 18**, distributes **EnchantVisuals-1.0.1.zip** and **SHA256SUMS.txt**. Release notes **report** successful x86 build, visual-selection tests and installer tests. They specifically warn that the **renamed rebuilt binary had not yet been revalidated in game**. No stronger runtime claim is warranted from that evidence.
 
 ## 2026-10-26 — author credit and initial documentation
 

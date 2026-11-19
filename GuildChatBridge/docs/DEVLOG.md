@@ -4,7 +4,7 @@
 
 ## August 2025 — a small beginning (retrospective)
 
-The experiment grew out of my interest in giving roleplayed characters a life beyond the words I typed for them. Guild chat seemed a natural place to begin: a character could listen, develop opinions and eventually contribute in their own voice while I continued controlling their adventures. The source committed on [August 20](https://github.com/babunidev/GuildChatBridge/commit/bd6afe4ab9b9c306ea234525aeef2f67a1617e0d) records only a first step—guild-message capture, roster handling and manual text sending—not the AI character I had imagined.
+The experiment grew out of my interest in giving roleplayed characters a life beyond the words I typed for them. Guild chat seemed a natural place to begin: a character could listen, develop opinions and eventually contribute in their own voice while I continued controlling their adventures. The source committed on [August 20](https://github.com/babunidev/ClassicWoWAddons/commit/bd6afe4ab9b9c306ea234525aeef2f67a1617e0d) records only a first step—guild-message capture, roster handling and manual text sending—not the AI character I had imagined.
 
 ## October 26, 2026 — documenting what existed
 

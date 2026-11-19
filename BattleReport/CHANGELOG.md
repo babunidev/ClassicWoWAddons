@@ -30,7 +30,7 @@ Expanded eleven Markdown files: README, concept, roadmap, changelog, agent rules
 
 **4cea3d4: provider-neutral names and compatibility.** Renamed Octo Battle Report to **Battle Report**, changed Lua global and SavedVariables to **BattleReportDB**, changed TOC/slash aliases, and added saved-data migration utility plus PowerShell tests. Version advanced to **1.6.5**.
 
-The [v1.6.5 release](https://github.com/babunidev/BattleReport/releases/tag/v1.6.5) was **published September 18** with **BattleReport.zip** and **SHA256SUMS.txt**. Its notes **report** successful packaging/syntax and regression/migration tests; an independent run was **not** part of this October documentation task.
+The [v1.6.5 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) was **published September 18** with **BattleReport.zip** and **SHA256SUMS.txt**. Its notes **report** successful packaging/syntax and regression/migration tests; an independent run was **not** part of this October documentation task.
 
 ## October 26 — attribution and doc foundations
 

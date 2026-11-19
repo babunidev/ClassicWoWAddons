@@ -10,7 +10,7 @@ Before this, I had experimented with WeakAuras in WoW Classic Anniversary for my
 
 The addon began locally with help from an ordinary ChatGPT conversation. During development, I discussed code with my AI assistant, copied Lua snippets into files myself, created the folders, installed the addon and tested it in the game. Each time I spotted something to improve, I went back to the chat, worked through the change, copied the new code and tried again. At the time, I wasn't using Cursor, Codex or another integrated coding agent. It took persistence, but seeing Buxbrew respond in-game made it worthwhile.
 
-To distinguish this original experiment from the related addons that followed, I now call it **Action Emotes #1**. The GitHub repository is [ActionEmotes-1](https://github.com/babunidev/ActionEmotes-1), while its historical Lua, TOC and commands still use BuxbrewCharge identifiers.
+To distinguish this original experiment from the related addons that followed, I now call it **Action Emotes #1**. The GitHub repository is [ActionEmotes-1](https://github.com/babunidev/ClassicWoWAddons/tree/main/ActionEmotes-1), while its historical Lua, TOC and commands still use BuxbrewCharge identifiers.
 
 ## Using the original addon
 

@@ -1,12 +1,12 @@
 # Battle Emotes Legacy — battle emotes on an action slot
 
 **By:** Babuni  
-**Repository:** [`babunidev/BattleEmotesLegacy`](https://github.com/babunidev/BattleEmotesLegacy), formerly `roar`. **Installed addon:** `roarr`.  
+**Repository:** [`babunidev/BattleEmotesLegacy`](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotesLegacy), formerly `roar`. **Installed addon:** `roarr`.  
 **Target:** World of Warcraft 1.12 / interface `11200`  
 **Declared version:** 1.0  
 **Current runtime verification:** Not retested in this documentation review.
 
-To distinguish this older experiment from the later Battle Emotes project, I renamed its GitHub repository **BattleEmotesLegacy**. The GitHub repository is now [`BattleEmotesLegacy`](https://github.com/babunidev/BattleEmotesLegacy), but its installed addon remains **ROARR**, with its original filenames and commands.
+To distinguish this older experiment from the later Battle Emotes project, I renamed its GitHub repository **BattleEmotesLegacy**. The GitHub repository is now [`BattleEmotesLegacy`](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotesLegacy), but its installed addon remains **ROARR**, with its original filenames and commands.
 
 ROARR gives an ordinary action-bar press a little theatrical personality. After you choose a button, the addon can perform a randomly selected **built-in World of Warcraft emote**—ROAR, CHARGE, CHEER, BORED, or FLEX—without replacing that button's normal action. It's a lightweight character-flavor addon, not combat automation.
 
@@ -63,14 +63,14 @@ Other addons that hook global `UseAction` may interact with ROARR depending on l
 
 | Project | Emote content | Default cooldown | Adjustable chance / cooldown | Guild recruitment |
 | --- | --- | --- | --- | --- |
-| [Action Emotes #1](https://github.com/babunidev/ActionEmotes-1), originally BuxbrewCharge | 10 built-in emotes | 21 seconds | No / No | No |
-| [Action Emotes #2](https://github.com/babunidev/ActionEmotes-2), originally Buxbrew | 215 custom written emotes | 90 seconds | No / No | No |
+| [Action Emotes #1](https://github.com/babunidev/ClassicWoWAddons/tree/main/ActionEmotes-1), originally BuxbrewCharge | 10 built-in emotes | 21 seconds | No / No | No |
+| [Action Emotes #2](https://github.com/babunidev/ClassicWoWAddons/tree/main/ActionEmotes-2), originally Buxbrew | 215 custom written emotes | 90 seconds | No / No | No |
 | **Battle Emotes Legacy** (this project) | **5 built-in battle emotes** | **6 seconds** | **Yes / Yes** | **No** |
-| [`roarr`](https://github.com/babunidev/BattleEmotes), separate project | Same five built-in battle emotes | 6 seconds | Yes / Yes | No |
+| [`roarr`](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotes), separate project | Same five built-in battle emotes | 6 seconds | Yes / Yes | No |
 
 The current Lua files of the two ROARR repositories have **identical gameplay code**. Their observed difference is the help presentation: Battle Emotes Legacy has a condensed `/roarr tutorial`; the separate `roarr` repository has a seven-step tutorial. Git does not establish why both repositories were originally maintained.
 
-Looking back, I associate this experiment with the **ROAR guild**. That connection is part of the project's history, but **guild invitation and recruitment features are absent from both ROARR versions**. The later [RoarGuild](https://github.com/babunidev/RoarGuildAddon) addon contains the remembered `/rogu invite` command, which posts a random recruitment message to a numbered chat channel on request. It does not send a game invitation to a player.
+Looking back, I associate this experiment with the **ROAR guild**. That connection is part of the project's history, but **guild invitation and recruitment features are absent from both ROARR versions**. The later [RoarGuild](https://github.com/babunidev/ClassicWoWAddons/tree/main/RoarGuildAddon) addon contains the remembered `/rogu invite` command, which posts a random recruitment message to a numbered chat channel on request. It does not send a game invitation to a player.
 
 ## Project history and naming
 

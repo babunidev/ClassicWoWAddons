@@ -11,7 +11,7 @@
 - Three recall spell name variations clearing predicted slots.
 - Periodic hook/display refresh approximately every **0.10 seconds**.
 - PowerShell migration helper and synthetic fixture test for old OctoTotemTimers SavedVariables.
-- A published [v1.3.7 ZIP plus checksum](https://github.com/babunidev/TotemTimers/releases/tag/v1.3.7), with release notes **reporting** historic syntax/migration checks.
+- A published [v1.3.7 ZIP plus checksum](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads), with release notes **reporting** historic syntax/migration checks.
 
 ## P0 — gameplay correctness
 

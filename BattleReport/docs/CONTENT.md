@@ -32,6 +32,6 @@ Source labels entered with **/battlereport source Effect = Item or enchantment**
 
 The repository contains **GUIDE.md**, five Lua modules, **tests/test_report.py**, **tests/test_upgrade.ps1**, and a SavedVariables migration utility. Historical Blizzard **GlobalStrings.lua** (needed for test playback) is gitignored, not an authored repository asset.
 
-GitHub's [v1.6.5 release](https://github.com/babunidev/BattleReport/releases/tag/v1.6.5) includes **BattleReport.zip** and **SHA256SUMS.txt**. Earlier September Git history included three screenshots, but the **current tree has no screenshots folder**. Don't use broken links or present deleted images as current assets.
+GitHub's [v1.6.5 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) includes **BattleReport.zip** and **SHA256SUMS.txt**. Earlier September Git history included three screenshots, but the **current tree has no screenshots folder**. Don't use broken links or present deleted images as current assets.
 
 The repository has **no LICENSE** in the inspected current tree. No player's actual report data or other player information should be copied into a public portfolio without explicit review. Prefer synthetic examples.

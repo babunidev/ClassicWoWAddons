@@ -92,4 +92,4 @@ Settings persisted: **x, y, scale, duration, direction, mute** in account-wide `
 
 The 2026-09-18 rename changed **OctoLoot** folder, globals and SavedVariables **OctoLootDB** to LootFeed/LootFeedDB. `Upgrade-SavedData.ps1` reads old/new TOCs, locates matching account/per-character files, backs up old originals, creates new destination files without overwriting, and rewrites only top-level variable declarations without executing Lua. Its test `tests/test_upgrade.ps1` builds synthetic temporary fixtures.
 
-The [v0.2.2 release](https://github.com/babunidev/LootFeed/releases/tag/v0.2.2) lists an installable ZIP and SHA256SUMS and reports historic syntax/migration checks. No loot-parser/roll test suite was found in the current tree, and **this audit did not run any tests**.
+The [v0.2.2 release](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads) lists an installable ZIP and SHA256SUMS and reports historic syntax/migration checks. No loot-parser/roll test suite was found in the current tree, and **this audit did not run any tests**.

@@ -7,7 +7,7 @@
 
 This is my **MultiActionEmotes** project, originally called **ROARRunlimited**. The new GitHub name describes its defining feature: several independently configured action-slot emote triggers. Its original working metaphor—turning an action bar into a war drum—remains part of the project's identity.
 
-The repository is now [MultiActionEmotes](https://github.com/babunidev/MultiActionEmotes), but the installed addon still uses `ROARRunlimited.lua`, `ROARRunlimited.toc`, `/roed`, and `ROEDDB`. This documentation change does not rename those runtime identifiers.
+The repository is now [MultiActionEmotes](https://github.com/babunidev/ClassicWoWAddons/tree/main/MultiActionEmotes), but the installed addon still uses `ROARRunlimited.lua`, `ROARRunlimited.toc`, `/roed`, and `ROEDDB`. This documentation change does not rename those runtime identifiers.
 
 ROARRunlimited builds on the action-triggered emote idea by letting a player associate **as many numbered configurations as needed** with action-bar slots. Each numbered instance has its own chosen action slot, trigger chance, and cooldown. Pressing a configured button can play a randomly selected native WoW battle emote while leaving the button's normal action intact.
 
@@ -72,7 +72,7 @@ Configuration is stored in account-wide `ROEDDB`. The nested `slots` entries inc
 
 ## Relationship to other ROAR projects
 
-[The earlier `roar` repository](https://github.com/babunidev/BattleEmotesLegacy) and [`roarr`](https://github.com/babunidev/BattleEmotes) implement a simpler **single watched-slot** design. ROARRunlimited, created in December 2025, independently stores multiple numbered instances with separate odds and timing. A later project named RoarForever has its own history; shared naming should not silently merge their codebases or authorship.
+[The earlier `roar` repository](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotesLegacy) and [`roarr`](https://github.com/babunidev/ClassicWoWAddons/tree/main/BattleEmotes) implement a simpler **single watched-slot** design. ROARRunlimited, created in December 2025, independently stores multiple numbered instances with separate odds and timing. A later project named RoarForever has its own history; shared naming should not silently merge their codebases or authorship.
 
 ## License, current limitations, and verification
 

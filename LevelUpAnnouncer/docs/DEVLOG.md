@@ -4,7 +4,7 @@
 
 ## August 2025 — BuxbrewDing
 
-The original project was called **BuxbrewDing**. Its Lua source contains 60 distinct messages for character level-ups, with guild announcements and preview commands. GitHub records an initial Lua commit on **August 27, 2025** ([31689f3](https://github.com/babunidev/LevelUpAnnouncer/commit/31689f31b797e3355eb28d6c7b84709782a2d85c)). Another commit that day ([e6d6906](https://github.com/babunidev/LevelUpAnnouncer/commit/e6d69061ddf30d153b401237e39fb96d2b8b6bde)) revises some level-specific lines, including mount references.
+The original project was called **BuxbrewDing**. Its Lua source contains 60 distinct messages for character level-ups, with guild announcements and preview commands. GitHub records an initial Lua commit on **August 27, 2025** ([31689f3](https://github.com/babunidev/ClassicWoWAddons/commit/31689f31b797e3355eb28d6c7b84709782a2d85c)). Another commit that day ([e6d6906](https://github.com/babunidev/ClassicWoWAddons/commit/e6d69061ddf30d153b401237e39fb96d2b8b6bde)) revises some level-specific lines, including mount references.
 
 The original writing and testing conversation is not recovered. My project history should not pretend to know why every line changed.
 

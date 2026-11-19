@@ -31,7 +31,7 @@
 
 10. Build from source using the Visual Studio **x86 Native Tools Command Prompt** plus Windows SDK. Run [build.cmd](../build.cmd), collect compiler output and confirm **tests/visual_pair_test.cpp** executes before DLL linkage.
 11. Execute [tests/test_installer.ps1](../tests/test_installer.ps1) on its synthetic files with PowerShell. Confirm preserved configuration, unrelated DLLs/loader entries, backups, repeat installation, uninstall, and rejection of wrong hashes.
-12. Download the published [v1.0.1 ZIP and checksum](https://github.com/babunidev/EnchantVisuals/releases/tag/v1.0.1), verify archive digest, inspect exact DLL + INI + installer contents and compare published binary checksum with the documented expected hash.
+12. Download the published [v1.0.1 ZIP and checksum](https://github.com/babunidev/ClassicWoWAddons/tree/main/downloads), verify archive digest, inspect exact DLL + INI + installer contents and compare published binary checksum with the documented expected hash.
 13. Test `dlls.txt` **missing, invalid UTF-8, unexpected contents**, game still running, unsupported exe, unrecognized existing DLL and permission failures. The installer expects `dlls.txt` to exist and read successfully.
 14. Test replacement of earlier owned DLL hashes while leaving unrelated DLLs untouched; confirm old disabled `EnableHooks=0` setting is correctly **preserved**.
 15. Inspect how installer behaves if it partially fails *after* creating backups. Backups are present but the code does **not** implement an atomic rollback of every file operation.

@@ -12,7 +12,7 @@ The relay, its social purpose and its gnomish setting came from me.
 
 ## How AI contributed
 
-The [original 2025 README](https://github.com/babunidev/TheGreatIceflowRelay/blob/03b275d/README.md) explicitly acknowledges AI help with Lua coding. That is evidence of implementation assistance, not a detailed map of who wrote or suggested every line. The surviving Git history records frequent technical revisions but not a complete conversation, list of rejected proposals or full test log.
+The [original 2025 README](https://github.com/babunidev/ClassicWoWAddons/blob/03b275d/README.md) explicitly acknowledges AI help with Lua coding. That is evidence of implementation assistance, not a detailed map of who wrote or suggested every line. The surviving Git history records frequent technical revisions but not a complete conversation, list of rejected proposals or full test log.
 
 On **26 October 2026**, AI inspected the source and Git history to build a more substantial documentation set. It described code behavior and limitations without changing the runtime. On **1 November 2026**, I supplied additional personal recollections and the intention to investigate a modern WoW version; AI revised the writing and technical references to reflect those choices.
 

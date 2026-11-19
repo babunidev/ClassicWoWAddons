@@ -9,7 +9,7 @@ For **Action Emotes #2**, I developed a character-focused successor to my first 
 
 The Lua file still calls itself `MadAxeBuxbrew`, while the packaged addon is simply **Buxbrew**. This is a character-voice project—not a combat rotation tool, not an automatic attack system, and not a collection of animation or sound assets.
 
-The GitHub repository is now [ActionEmotes-2](https://github.com/babunidev/ActionEmotes-2). The actual installed addon has **not** been renamed: it still uses `Buxbrew.lua`, `Buxbrew.toc`, `MadAxeBuxbrewDB` and `/mae`. I am preserving that distinction rather than implying the runtime has been migrated.
+The GitHub repository is now [ActionEmotes-2](https://github.com/babunidev/ClassicWoWAddons/tree/main/ActionEmotes-2). The actual installed addon has **not** been renamed: it still uses `Buxbrew.lua`, `Buxbrew.toc`, `MadAxeBuxbrewDB` and `/mae`. I am preserving that distinction rather than implying the runtime has been migrated.
 
 ## Set up and use
 
