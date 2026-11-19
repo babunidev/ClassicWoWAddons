@@ -2,6 +2,10 @@
 
 **Creator:** Babuni.dev. Commit timestamps are **evidence of committed changes**, not evidence of full in-game testing.
 
+## 2026-11-19 — documentation moved into `docs/`
+
+- Moved `CONCEPT.md` and `ROADMAP.md` into `docs/`. The root keeps only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md`; links to the moved files and the documentation rules in `AGENTS.md` were updated. No code changed. Claude Code (Claude Opus 5.5).
+
 ## 2026-10-27 — portfolio documentation expansion
 
 - Updated README to describe **four saved switches**, not the prior inaccurate “two settings” summary; clarified buff display defaults off and checkbox visibility defaults on.
