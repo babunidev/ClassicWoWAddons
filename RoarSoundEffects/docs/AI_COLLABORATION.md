@@ -1,0 +1,45 @@
+# Roar Sound Effects — human and AI collaboration methodology
+
+Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+
+## Giving the roar its voice back
+
+With Roar Sound Effects, I wanted each character’s roar to play its built-in race and sex sound again. The dated code records experiments with addon communication followed by emote-text detection. The original coding roles remain uncertain.
+
+The game-client WAV paths point to **game-owned assets**. They are not to be credited as sounds invented or recorded by either Babuni or an assistant.
+
+## Recorded AI contribution — 2026-10-26
+
+The assistant:
+- Inspected current `ROAR/ROAR.lua`, `ROAR/ROAR.toc`, README, license and earlier short docs.
+- Compared notable April 19–22 commit diffs to document original own-character playback, the temporary addon-message feature, its removal and final unit resolution.
+- Identified the current 16 mapping entries, 0.3-second sender gate, loose English substring matching, bare-name collisions and `30300` manifest target.
+- Rebuilt eleven Markdown documentation files, including a narrative development journal and a test roadmap.
+
+**This is a source-analysis, research and writing contribution.** The assistant did not create the original sound concept in this pass, run WoW, test game sound files, change executable code, extract the ZIP, or approve new features.
+
+## Future development journal standard
+
+Record (1) what I requested and why, (2) what AI suggested or built, (3) competing approaches/constraints, (4) creative acceptance, rejection or postponement, (5) exact files and commits, and (6) what was actually tested with which game build.
+
+A retrospective source reading should be labeled as such. Do not invent missing conversations or imply that all previous changes were produced by AI or fully approved in the present discussion.
+
+Keep public portfolio records free from private messages, credentials and third-party player data. Preserve the existing MIT license and distinguish code licensing from game-audio ownership.
+
+## November 1, 2026 — first-person origin recollection
+
+The reason for the project was clarified in my own account: a familiar roar was audible in an earlier WoW client and silent in a later one, despite the sound files remaining. Restoring the sound for myself, family and guildmates was the creative goal. The description of ROARSounds as an early predecessor of RoarForever also comes from my recollection.
+
+AI incorporated that testimony and checked it against the ROAR source to separate motivation from verified behavior. No one established direct code reuse, universal group playback or in-game test results during this documentation update.
+
+## November 2026 — documenting the rename
+
+To make its purpose easier to recognize, I renamed the GitHub repository to **RoarSoundEffects** to give my earlier sound experiment a descriptive public title. At my request, AI revised the current documentation and attribution, preserving the historical **ROAR** installed addon and the distinction between my idea and source-based interpretation. No in-game audio testing was performed.
+
+## Related development history
+
+Roar Sound Effects (originally ROARSounds) belongs to the **voice-restoration branch** of these expressive WoW experiments, not to the action-slot emote-trigger family. The April 2026 implementation listens for recognized text-emote activity and tries to replay the race/sex-specific client roar sound. It does **not** provide an emote registry, automatically perform an emote on ability use, or generate custom audio. This creative approach later informed Roar Forever, although direct code inheritance has not been verified. The [cross-project record](EMOTE_FAMILY_HISTORY.md) puts both branches in context.
+
+## 18 November 2026 — Collaboration record review
+
+At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.

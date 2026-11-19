@@ -1,0 +1,58 @@
+# Roar Sound Effects — development rules for human and AI contributors
+
+**By:** Babuni.
+
+## Project identity and writing style
+
+The GitHub project is **RoarSoundEffects**, displayed as **Roar Sound Effects**, and was formerly ROARSounds. Its historical installed folder and game identifiers are **ROAR**; do not rename `ROAR/ROAR.lua`, `ROAR/ROAR.toc` or repack the ZIP during documentation work.
+
+Write public-facing histories from Babuni's first-person perspective without beginning sentences with `I` or `My`. **Babuni** identifies the human creative; **babuni.dev** identifies the development portfolio. Use “creative,” not “creator,” for the human role. Distinguish human idea and direction, AI contribution, verified implementation and untested behavior.
+
+## Identity
+
+This repository implements a **WoW /roar sound restoration addon** installed as `ROAR`. It is not the action-slot emote addon in `roar` or `roarr`, and is separate from ROARRunlimited, RoarGuild and the later RoarForever implementation. Shared naming is not evidence of a single codebase.
+
+Do not replace the creative's immersion-first concept with combat automation, a performance dashboard, a content-generation pipeline or a new sound pack without explicit creative direction.
+
+## Finished-project policy
+
+Babuni has explicitly declared Roar Sound Effects a **finished legacy addon**. Preserve the source and historical release artifacts. Do not treat earlier proposals or test lists as an active roadmap or implement changes without a new creative decision.
+
+Compatibility is conditional: the TOC declares `30300`; playback depends on the particular client's APIs and sound files. Do not claim universally tested support. This project closure does not apply to the separate RoarForever development.
+
+## Engineering and compatibility
+
+- Read `README.md`, `docs/CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md`, current `ROAR/ROAR.lua`, `ROAR/ROAR.toc`, and Git history before changing behavior.
+- The TOC currently declares **30300**; do not automatically claim Vanilla 1.12 support.
+- Play built-in **client** assets, not redistributed audio. Only 16 sound paths from eight race families exist in the current mapping.
+- Current source uses legacy event globals `event`, `arg1`, `arg2`, `UnitRace`, `UnitSex`, unit token APIs and `PlaySoundFile`. Test them against the intended client.
+- Detection is a substring test on text-emote chat; check localization and false positives.
+- Other-player sound requires a resolvable player unit. Do not claim that every nearby roaring character can be identified.
+- Name normalization strips realms and the per-sender cooldown is 0.3 seconds; test collisions and suppressed events.
+- The **current source does not send addon messages**. That historical experiment was removed on April 22, 2026; reintroducing communication requires a new creative decision.
+- Do not treat `ROAR.zip` as verified equivalent to source without comparing its contents.
+- Preserve MIT author credit and game-audio licensing boundaries.
+
+## Historical relationship to RoarForever
+
+Babuni recalled on November 1, 2026 that this addon arose after enjoying audible roars in one client and finding them disabled in another even though the assets remained. Restoring the sound for personal, family and guild play was the original motivation. This makes ROARSounds a **creative predecessor** of RoarForever, not a verified source-code ancestor. Document this testimony separately from source-proven limits: other-player playback requires identifiable units and is not a universal group setting.
+
+## Collaboration journal expectations
+
+For each substantive change, record: Babuni's direction and stated reason; AI analysis and possible alternatives; the creative's explicit accepted/rejected/postponed decisions; modified paths and commit; actual runtime test environment and result; and unresolved questions. Without these, mark reconstruction instead of fabricating an origin story.
+
+Maintain README, CONCEPT, ROADMAP, CHANGELOG, AGENTS, and `docs/DEVLOG.md`, `docs/DECISIONS.md`, `docs/DESIGN.md`, `docs/ARCHITECTURE.md`, `docs/CONTENT.md`, `docs/AI_COLLABORATION.md` along with applicable code revisions.
+
+For this documentation-only audit, preserve Lua, TOC, ZIP and LICENSE exactly.
+
+## Historical and functional boundaries
+
+Use [the full expressive-addon history](docs/EMOTE_FAMILY_HISTORY.md) for cross-project context. This addon detects a text emote and plays an existing sound; it does not send action-triggered emotes, support the Roar Guild editable registry or implement Flourish's spellcast event. Preserve its finished legacy status and separate source evidence from personal recollection.
+
+## Repository-local documentation standard
+
+Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.
