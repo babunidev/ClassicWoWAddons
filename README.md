@@ -89,9 +89,9 @@ The project has an existing **MIT LICENSE** credited to Babuni. This documentati
 
 ## Development documentation
 
-- [Creative concept](CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Content and tone](docs/CONTENT.md)
+- [Creative concept](docs/CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Content and tone](docs/CONTENT.md)
 - [Architecture and protocol](docs/ARCHITECTURE.md) · [Decision record](docs/DECISIONS.md) · [Narrative journal](docs/DEVLOG.md)
-- [Roadmap and verification](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Roadmap and verification](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [AI collaboration and attribution](docs/AI_COLLABORATION.md) · [Contributor instructions](AGENTS.md)
 
 ## The guild addon's place in the emote family
