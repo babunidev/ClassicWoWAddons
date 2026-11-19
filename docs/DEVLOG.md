@@ -12,11 +12,23 @@ Claude Code (Claude Opus 5.5) checked the roadmaps first. Apart from RoarSoundEf
 
 The same evening I decided that The Great Iceflow Relay should get a WoW Forever edition. That is further development, so it no longer belongs here. Claude Code (Claude Opus 5.5) had already deleted its repository; at my choice it recreated it from the complete local history and took the folder out of this collection.
 
+## Action Emotes #1 — how it began
+
+In WoW Classic Anniversary, my orc warrior **Madaxe Morkahja** lived up to her name. With WeakAuras, I could make her Charge trigger a battle cry or a written emote. Sometimes her sidekick, a mechanical squirrel, made it into the line too. Those reactions gave her a personality that came through while I was simply playing.
+
+When I moved to an older WoW 1.12 client, WeakAuras wasn’t available, so I started experimenting with standalone addons. For **Buxbrew**, now **Jasmine Amberbrew**, I wanted a different kind of expression. She was a grounded, joyful dwarf who might laugh, cheer, or roar as she charged into battle.
+
+That experiment became **BuxbrewCharge**, my first addon, now called **Action Emotes #1**. The setup was simple. Through slash commands, I could choose an action-bar slot, and pressing it could trigger one of the game’s built-in emotes. ChatGPT helped with the Lua, and I copied the changes into local files, installed them, and tried them in-game. Some fixes were a headache, but the process was fun. The exact first fight escapes me. What I remember is how happy I was that something I’d made changed the way ordinary play felt. [Development journal](../ActionEmotes-1/docs/DEVLOG.md)
+
+## Where the idea went
+
+The later experiments explored written roleplay reactions, adjustable chance and cooldowns, multiple action slots, and editable emote lists. **Action Emotes #2** contains written reactions in its surviving source. Which build held the specific gestures I remember for Jasmine is still unclear. [Emote family history](https://github.com/babunidev/FlourishForever/blob/main/docs/EMOTE_FAMILY_HISTORY.md)
+
+On WoW Forever, that interest took two forms. **FlourishForever** carried forward the idea of attaching expressions to abilities. **RoarForever**, following **Roar Sound Effects**, focused on restoring the voices and sounds that accompany emotes. Both grew from wanting characters to show more personality during ordinary play. [FlourishForever](https://github.com/babunidev/FlourishForever) · [RoarForever](https://github.com/babunidev/RoarForever)
+
 ## Retrospective — the expressive addon family (August 2025 to October 2026)
 
 *Compiled by Babuni on 1 November 2026 in FlourishForever's `docs/EMOTE_FAMILY_HISTORY.md` and reproduced here; links now point to the folders in this collection.*
-
-**Still to add:** the chapter before the first standalone addon (WeakAuras in Classic Anniversary and Madaxe Morkahja's Charge) comes from an interview that is not yet part of these documents.
 
 **Creative:** Babuni · **Retrospective compiled:** 1 November 2026  
 **Scope:** Related projects and source-grounded milestones, not an assertion that every later repository directly forks the previous one.

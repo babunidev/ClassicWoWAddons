@@ -1,5 +1,9 @@
 # Changelog — Classic WoW Addons
 
+## 2026-11-19 — How the emote addons began
+
+- Added Babuni's account of the beginning to `docs/DEVLOG.md`: Madaxe Morkahja's WeakAuras battle cries in Classic Anniversary, the move to 1.12 that led to BuxbrewCharge (Action Emotes #1), and where the idea went on WoW Forever. Text supplied by Babuni; Claude Code (Claude Opus 5.5) placed it and pointed its Action Emotes #1 link into this repository.
+
 ## 2026-11-19 — The Great Iceflow Relay returns to its own repository
 
 - Removed `TheGreatIceflowRelay/` and its install zip. A WoW Forever edition was planned for it the same evening, so by the collection's rule it keeps its own repository again: [babunidev/TheGreatIceflowRelay](https://github.com/babunidev/TheGreatIceflowRelay), recreated from the full local history. Its unmerged readability pull request moved there as the branch `archive/readability-pr1`. Its former pull requests stay recorded in [`docs/github-archive/TheGreatIceflowRelay.md`](docs/github-archive/TheGreatIceflowRelay.md). The collection now holds 20 projects.
