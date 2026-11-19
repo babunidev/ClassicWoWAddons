@@ -1,36 +1,27 @@
-# MeleeStartAttack — attribution and collaboration record
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## From Warrior to three classes
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-After my Warrior experiment, I wanted selected actions to start ordinary auto-attacks for Paladins and Shamans too. The commits show the move from a single hook to three entry points, a cached Attack action, and class-specific start and stop behavior.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-They do **not** by themselves establish which lines were originally produced by a human, which were authored with an AI, why every change was discussed or whether any proposal was approved outside recorded changes. Do not attribute the creative's initial idea to AI or fabricate missing conversation.
+## Who did what
 
-## AI assistance in this documentation session (2026-10-26)
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-An assistant:
-- Fetched the live GitHub tree, full `MeleeStartAttack.lua` and TOC, existing README, earlier docs and dated August/September Git diffs.
-- Identified the **7 Paladin, 20 Warrior, 5 Shaman** default icon entries and one Warrior stop icon.
-- Explained the three global wrappers, icon-based spellbook localization, player-intent triggering, cached Attack slot vs combat-flag fallback, per-class persistence, legacy migration, and precise command behavior.
-- Flagged unverified edge cases: shared-icon start/stop priority, capturing presses that also trigger actions, session-only on/off, same-class cross-character storage, macro learning failure and interaction with other global hooks.
-- Rebuilt 11 Markdown docs including the narrative development history, roadmap and agent rules.
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-This is **editorial, research and technical analysis work**, not a claim that the assistant conceived the project, changed combat code or tested the client. The current documentation commit is **Markdown-only**.
+## Where the details are
 
-## Method for future changes
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-Every substantial discussion/implementation should preserve:
-1. **User direction:** What I wanted and why, including limits.
-2. **AI interpretation/proposal:** Alternatives, tradeoffs, and what the assistant actually contributed.
-3. **Creative iteration:** Misunderstandings, mistakes, rejected ideas and refinements.
-4. **Creative decisions:** What was explicitly accepted, rejected or postponed.
-5. **Implementation:** Changed paths, commit/PR reference and migration implications.
-6. **Verification:** Test environment, commands, actual outcomes and what remains unverified.
-
-Create publishable summaries rather than raw private transcripts. Keep credentials, unrelated private details, and other players' private communications out of the portfolio. Respect the creative's choice of a code license; there is **no LICENSE** committed as of this pass.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/d0f3cb811cb7f14559996ec4e06fbb8099b0fa76/MeleeStartAttack/docs/AI_COLLABORATION.md).

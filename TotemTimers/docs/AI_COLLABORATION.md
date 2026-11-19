@@ -1,41 +1,27 @@
-# Totem Timers — human/AI collaboration and provenance
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## Reading the totems at a glance
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-For my Shaman, I wanted one native-looking display for the four elements, with shield and weapon icons, red missing-state warnings, and controls to move or lock the display. The first public revision already identifies itself as 1.3.7.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-The source does not record every earlier private discussion, alternate UI sketch, uncommitted version or which AI—if any—generated an earlier Lua function. The visible version was already **1.3.7** at first commit; it would be inaccurate to invent versions 1.0–1.3.6 as separately documented releases.
+## Who did what
 
-The Sept 18 rename was a recorded technical operation with consequences for users' saved state. The migration script is credited as committed project work; the October editorial assistant does not claim to have implemented it.
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-## Documented assistant contribution — October 27, 2026
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-The assistant:
-- Confirmed **TotemTimers** as repository **#22** of the current numbered portfolio audit, explicitly skipping #21 GroupBuffToggle.
-- Examined the 600-line `TotemTimers.lua`, manifest, existing documentation, PowerShell saved-data tool and fixture, and the two substantive September Git commits.
-- Verified public **v1.3.7 release metadata** including ZIP and checksum links.
-- Distinguished native `GetTotemInfo` reads from **cast-attempt-based timer prediction** and documented possible failed-cast drift and global wrapper behavior.
-- Mapped 23 fallback totems, 4 element ordering, three shield names, four weapon enchant names, commands and SavedVariables.
-- Authored/revised 11 Markdown files and checked them against the current source without editing any executable code.
+## Where the details are
 
-This is **research, technical interpretation and documentation**, not a claim of original conception, 2026 gameplay testing, a fix for timer accuracy, creative approval of any new feature, or verification of binary releases.
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-## Future work must preserve the collaboration
-
-For each material future change, record:
-1. **User direction:** desired player experience, reason and restrictions.
-2. **AI suggestion/implementation:** actual alternatives and code/document contributions.
-3. **Creative iteration:** mistakes, competing approaches, tests, rejected solutions.
-4. **Creative decision:** explicit accepted/rejected/deferred outcome.
-5. **Implementation:** exact source, documentation and commit identifiers.
-6. **Verification:** actual game client, test setup, screenshots, observed results and unknowns.
-
-Public portfolio entries should be **narrative summaries**, not raw private conversations or client credentials/account data. Do not imply feature proposals in ROADMAP are authorized decisions.
-
-No Lua, TOC, saved-data utility or regression fixture was changed by this October 27 documentation audit.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/ae20890b447114d6a398a123063a28e175818a2b/TotemTimers/docs/AI_COLLABORATION.md).

@@ -1,39 +1,27 @@
-# LootFeed — human–AI collaboration and provenance
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## Making loot easier to read
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-With Octo Loot, later LootFeed, I wanted short, interactive loot messages that left the rest of the interface clear. Dated commits show the feature progression and the correction around group-roll completion.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-Dated commits reveal the feature progression and a real technical correction about group-roll completion. They do not reveal exactly which person or AI generated earlier Lua source lines, nor every original user request or rejected alternative. Avoid inventing that dialogue.
+## Who did what
 
-## October 26, 2026 AI assistance
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-In this session the assistant:
-- Confirmed `babunidev/LootFeed` as repository **#20** in the current sequential audit.
-- Read the current README, existing docs, two Lua sources, TOC, migration helper, PowerShell test and three screenshot file entries.
-- Inspected September commits: initial Octo Loot 0.1.5, roll addition 0.2.0, local-prompt correction 0.2.1 and provider-neutral rename 0.2.2.
-- Verified published v0.2.2 GitHub release **metadata**, including the ZIP and SHA256SUMS assets; repaired README's stale-owner download URL.
-- Explained the separation between ordinary five-row caps and extra roll records; roll ambiguity, provisional timeouts, late chat, CVar/chat-handler side effects, and account-wide setting migration.
-- Created or revised eleven Markdown files and verified their links while leaving all runtime code, scripts, tests and images unchanged.
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-This was **editorial, research and documentation work**. It is not an in-game test, reproduction of a bug, new gameplay feature, original-concept invention, or independent archive checksum verification.
+## Where the details are
 
-## Future collaboration standard
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-For every substantial iteration preserve:
-1. **User direction:** my intended player experience, functionality and constraints.
-2. **AI contribution:** the actual suggestion/design/code/test or documentation, identified separately.
-3. **Creative iteration:** considered approaches, mistakes, misunderstandings and corrections, including rejected alternatives.
-4. **Creative decision:** explicit approval, rejection or postponement; never infer approval from a proposed roadmap.
-5. **Implementation:** exact files/commits, any migration effects.
-6. **Verification:** actual environment, commands, observed results and unresolved cases.
-
-The publishable journal should be a truthful narrative, not pasted private chats. Keep genuine player names, group-loot conversations, account paths or credentials out of public examples; use the existing **fictional testroll** characters when a demonstration suffices.
-
-No Lua, TOC, migration script, tests or image assets were edited in the October 26 docs-only pass.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/6289ba7f517fe0410539626e5a84f239eaf2ee1f/LootFeed/docs/AI_COLLABORATION.md).

@@ -1,41 +1,27 @@
-# EnchantVisuals — human–AI collaboration and technical provenance
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## Keeping both effects visible
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-For my Shaman, I wanted the permanent weapon-enchant glow to stay visible alongside the temporary imbue, using the game’s own visual language. The initial September 11 publication already had the C++ implementation, screenshots and an installer.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-Git does **not** establish a complete record of earlier human–AI conversations or who personally wrote each C++ line before the initial commit. An assistant involved in **October 27 documentation** cannot retroactively claim to have invented the effect, approved the risks or completed the first game client tests.
+## Who did what
 
-The project also has independent third-party provenance: MinHook 1.3.4 and its disassembler subcomponents have named upstream copyright holders and licenses. World of Warcraft imagery and effects belong to their respective game rightsholders.
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-## AI work documented during this October 27, 2026 audit
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-The assistant:
-- Identified **EnchantVisuals** as repository **#23** in the portfolio audit sequence, following #21 GroupBuffToggle and #22 TotemTimers.
-- Read the live repository tree, README, current C++ renderer and visual-pair helpers, client signatures, Windows build file, installer, INI, tests, LICENSE, MinHook notices, and four screenshot file entries.
-- Inspected the September 11 initial publication and September 18 provider-neutral rename/build changes, October credit/documentation commits, and **v1.0.0/v1.0.1 release metadata**.
-- Documented that the **earlier build was reported tested in-game**, while the **newly rebuilt v1.0.1 DLL was not yet revalidated in-game** according to its own published release.
-- Distinguished transient render-marker composition from persistent enchant/gameplay data, and explained installer executable/DLL SHA checks, five runtime signatures, config preservation and diagnostic logs.
-- Expanded/revised 11 Markdown files to preserve concept, architecture, interface design, asset rights, decisions, verification roadmap and a readable development journal.
+## Where the details are
 
-This is **source research, explanation, editorial work and documentation Git changes**, not original visual conception, gameplay testing, installer execution or repair of native runtime code.
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-## Guidelines for continuing development history
-
-For every significant change preserve:
-1. **User direction:** the actual artistic result desired and constraints.
-2. **AI contribution:** what was suggested, generated, coded, documented or tested.
-3. **Creative iteration:** alternatives, failures, source challenges, debugging steps and corrected assumptions.
-4. **Creative decision:** explicit approval/rejection/deferral, not mere implication from a roadmap.
-5. **Implementation:** exact C++/installer/assets/document paths, commits and release identifiers.
-6. **Verification:** actual client executable, checksum, DLL binary, test commands, observed runtime behavior and unresolved limitations.
-
-Protect player privacy and machine state. Redact process/thread IDs and pointers in publicly shared diagnostic logs. Don't disclose raw private chats, personal local paths or credentials. Keep the MIT and MinHook license distinctions visible in any published portfolio representation.
-
-**This October 27 audit changes only documentation, not the executable or its build/configuration.**
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/55c17fbc3912049218d0cc5ff424b11c93353c72/EnchantVisuals/docs/AI_COLLABORATION.md).

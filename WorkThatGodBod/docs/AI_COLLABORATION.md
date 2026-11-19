@@ -1,37 +1,27 @@
-# WorkThatGodBod — human/AI contribution and provenance
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## A reminder that belongs in Azeroth
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-The idea was mine to make exercise reminders easy to live with during World of Warcraft, using a voice that sounded at home in the game. The surviving history cannot assign individual lines or suggestions in the 99-line corpus.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-## The documented 2026-10-26 AI contribution
+## Who did what
 
-The assistant:
-- Inspected the live README, Lua, TOC, MIT license, documentation scaffold and representative dated commit diffs.
-- Recovered the transition from one slot to multiple slots and from plain prompts to fantasy writing.
-- Counted 99 current prompts and precisely calculated the current outbound chat distribution.
-- Identified important divergences between old README descriptions and actual v1.1 source.
-- Drafted and committed expanded Markdown documentation and flagged creative decisions for future work.
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-These are **technical analysis and editorial contributions**, not evidence of new feature approval, implementation changes or gameplay test success.
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-## Responsible presentation
+## Where the details are
 
-User-facing documentation must plainly say that some prompts are transmitted to other players, and that the tool does not provide individual medical advice or track completed exercises. Preserve the MIT copyright credit and existing author identification. Never publish private health information, player chat logs, credentials or unapproved raw conversations to GitHub as part of the development journal.
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-## What every future change record should capture
-
-1. Creative direction, reason and constraints.
-2. AI suggestions, assumptions and considered alternatives.
-3. Explicit approval, rejection, postponement or correction from me.
-4. Changed files and linked commit/PR.
-5. Tests performed, environment, expected and observed outcomes.
-6. Remaining uncertainties and potential user-facing consequences.
-
-When documentation is reconstructed after the event, label what can be proven by source and what is only an editorial interpretation.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/b7d1f08be6799f20ff751133f76b00e6cf09f85c/WorkThatGodBod/docs/AI_COLLABORATION.md).

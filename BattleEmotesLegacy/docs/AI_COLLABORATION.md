@@ -1,46 +1,27 @@
-# Battle Emotes Legacy — human–AI collaboration and attribution
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## Where the addon came from
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-The creative direction and naming decisions were mine. The early source describes a rewrite from BuxbrewCharge and records substantial editing in November 2025. The surviving history leaves individual coding contributions uncertain.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-The source history shows extensive November 2025 editing. There is no complete approved transcript in the inspected repository assigning each implementation choice to a particular assistant or user utterance. Do not invent “we agreed to” accounts or credit the original artistic motivation to AI.
+## Who did what
 
-## AI contribution in the 2026-10-26 documentation session
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-An AI assistant inspected the repository README, TOC, Lua source, license, and representative original commit diffs. It mapped the ROAR-to-ROARR naming transitions, clarified chance-versus-cooldown mechanics, surfaced possible preference initialization issues, and wrote substantive documentation. **This is editorial and technical documentation assistance**, not an in-client verification or newly approved gameplay direction.
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-## Authorship versus legal notice
+## Where the details are
 
-Display attribution in the README and TOC names **Babuni**. The MIT `LICENSE` includes a historic `Copyright (c) 2025 Elexior` line. This review does not establish whether the names refer to the same person or represent distinct rights. Retain the original notice until the appropriate rights owner clarifies it; don't silently reassign it in generated documentation.
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-## Future provenance format
-
-For a substantial revision, record:
-
-1. Creative request, reason and constraints.
-2. Assistant's proposals and technical assumptions.
-3. Alternatives, disagreements, revisions and corrections.
-4. Explicit creative selection, deferral or rejection.
-5. Changed paths and commit/PR links.
-6. Steps actually executed, observed outcomes, and what remains unverified.
-
-Keep public portfolio write-ups publication-safe. Do not expose private chat logs, account identifiers, player communications or credentials.
-
-## November 2026 — project naming
-
-For this older repository, I chose **Battle Emotes Legacy** and renamed it on GitHub. At my request, an AI assistant aligned the documentation with that choice. This did not rename the installed addon or establish why the separate `roarr` repository was maintained. No in-game tests were performed in this pass.
-
-## 1 November 2026 — comparison prompted by a remembered guild connection
-
-While revisiting the series, I asked how Battle Emotes Legacy differed from Action Emotes #1, Action Emotes #2, and `roarr`, recalling a connection with the **ROAR guild** and possible invitation messages. AI compared those Lua sources and the later **RoarGuild** implementation, established that the two ROARR versions differ in tutorial output rather than gameplay, and traced recruitment chat messages to RoarGuild. This is a fresh human recollection combined with source research, not recovered original dialogue. Documentation only; no code or license changes and no in-game tests.
-
-## Place in the expressive-addon family
-
-Battle Emotes Legacy is the November 2025 ROAR experiment derived from BuxbrewCharge. Its five battle-emote tokens (ROAR, CHARGE, CHEER, BORED and FLEX) are a **fixed Lua table**, not a starting set the player can extend with commands. It adds adjustable chance/cooldown and an on/off switch, but not guild recruitment. The separate Battle Emotes repository has effectively the same gameplay implementation and a longer tutorial. See [the source-grounded family timeline](EMOTE_FAMILY_HISTORY.md) for the differences between all the projects.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/f944bb37974969352ee85e73c0e2aee5c83929b8/BattleEmotesLegacy/docs/AI_COLLABORATION.md).

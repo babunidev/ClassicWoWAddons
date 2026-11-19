@@ -1,33 +1,27 @@
-# BattleReport — collaboration and attribution
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## From personal reports to combat reports
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-With Battle Report, I explored personal reports, moving quick reports and frozen pre-fight baselines before settling on a combat-only direction. Git records that progression and the rename from Octo Battle Report.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-Source commits **do not automatically reveal** which earlier code lines were written by a human or an AI, the detailed motives for every UI adjustment, or which private proposals the creative approved. This document will not invent those conversations or claim the assistant conceived the original product.
+## Who did what
 
-The archived Blizzard 1.12.1 **GlobalStrings.lua** test fixture belongs to its upstream source and is intentionally gitignored. Historical release assets and game interfaces are not original AI-authored images.
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-## What AI contributed on October 26, 2026
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-- Inspected current GitHub tree, README, GUIDE, TOC, Core, Average, Resources, Parser, UI, and Python/PowerShell tests.
-- Reviewed September source diffs and verified the public **v1.6.5** release metadata, ZIP asset and checksum listing.
-- Distinguished strict combat-only behavior from superseded early buffering, current Nampower-aware vs fallback cast counting, statistical baselines, bounded history and source-label limitations.
-- Reconciled old-owner release URLs and README slash aliases with current GitHub releases/source.
-- Created/revised eleven Markdown documentation files with narrative evolution and a test roadmap, without changing runtime code.
+## Where the details are
 
-That is **research, technical analysis, editorial and Git documentation work**. It is not proof of successfully running original WoW, of test results in this session, of authorship of earlier code, or of creative acceptance of optional new features.
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-## Record future iterations faithfully
-
-For each substantial change, preserve **human direction**, AI suggestions/alternatives, iteration and corrections, explicit user acceptance/rejection/deferral, exact file/commit/release evidence and tests *actually executed*. Mark statements as source-observed, historically reported in release notes, independently verified or proposed.
-
-Write public-safe summaries, not raw private conversations. Do not include personal game saves, private account data or other players' identifying combat logs. A missing LICENSE cannot be supplied silently on the creative's behalf.
-
-This documentation-only pass updates public records and leaves application behavior untouched.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/97f8f92046edc8ebd7c7df5b6797d1f381a3dc72/BattleReport/docs/AI_COLLABORATION.md).

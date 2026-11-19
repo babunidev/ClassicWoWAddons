@@ -1,38 +1,27 @@
-# WarriorStartAttack — human–AI collaboration and provenance
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## Starting an attack without toggling it off
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-For my Warrior, I wanted selected offensive attempts to start auto-attack, with safeguards against accidentally turning it off. Intimidating Shout served as the stop command. The August 10, 2026 source and manifest record that behavior.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-The project history visible in Git **does not** contain a complete series of planning conversations or proof of whether an AI assisted with the initial August source upload. An assistant cannot retroactively claim that it conceived the idea, authored every line, or resolved a particular bug unless an actual source or conversation documents that fact.
+## Who did what
 
-## AI contribution on October 26, 2026
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-An assistant:
-- Read the live GitHub tree, README, TOC and full 160-line Lua source.
-- Inspected original upload and later attribution/documentation Git diffs.
-- Recorded **20 offensive icon entries**, one stop icon, three API hooks, the hostile-target/Warrior start gates, and auto-attack toggle-state strategy.
-- Highlighted the missing Warrior-only check on the stop path, source-level icon collisions, global hook interactions and combat-state fallback uncertainty, explicitly as **unverified behavior**, not demonstrated bugs.
-- Expanded/rebuilt eleven Markdown documents with a narrative development history and proposed client tests.
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-The AI performed **research, analysis and editorial documentation** in this session. It did **not** modify Lua/TOC, run World of Warcraft, validate localized spell behavior, approve new design changes or supply an open-source license on the creative's behalf.
+## Where the details are
 
-## Required record for future implementations
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-Preserve in the journal:
-1. **Creative direction:** What I wanted and why.
-2. **AI contribution:** What was proposed, analyzed, generated, or changed.
-3. **Iteration:** Tests, alternatives, disagreements, misunderstandings and corrections.
-4. **User decision:** Explicit acceptance, rejection or deferral.
-5. **Implementation:** Exact files, commits and test environment.
-6. **Verification:** What actually happened, observed effects, uncertainty and any regressions.
-
-Publish narrative summaries that protect privacy. Do not publish private conversations, user credentials, unrelated personal information or other players' data. Keep code-license questions visible until the human creative resolves them.
-
-This audit made **documentation changes only** and claims no code or client test results.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/6d4fc3dd2575cf44c3462ef0bda0a7907635dffd/WarriorStartAttack/docs/AI_COLLABORATION.md).

@@ -1,49 +1,27 @@
-# Roar Guild Addon Wrath — human–AI collaboration and provenance
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## Taking the idea to Wrath
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-The Wrath addon carries forward my ROAR experiments with expressive action presses and a guild voice rooted in curiosity, kindness and shared stories. The source header reads `RoarGuild v1.32`, a trace of that lineage.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-Do not mistake native WoW emote tokens for uniquely AI-generated or creative-recorded audio/animations.
+## Who did what
 
-## What this AI session contributed
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-On 2026-10-26 the assistant:
-- Inspected the live README, `ROARTrigger.lua`, `ROARTrigger.toc`, LICENSE and existing short docs.
-- Read relevant April, May and September commit diffs.
-- Distinguished repository name, installed addon name, TOC title, slash command and saved-data identifiers.
-- Explained source-supported behavior: post-action hook, configured instance odds, success-only fallback throttle, character profiles, statistics and manual guild invitations.
-- Counted **33** current recruitment lines and confirmed the source does **not** include Roarboard.
-- Rewrote/created eleven Markdown development files and identified unverified compatibility and user-experience questions.
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-This is an **editorial, analytic and documentation contribution**. It is **not** evidence that the assistant originally conceived the addon, wrote every prior source revision, tested the game client, merged RoarGuild, or received approval to change runtime behavior.
+## Where the details are
 
-## Standards for the next change
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-For each substantial implementation, write a documentation-ready record that preserves:
-1. **User direction** — goal, reasoning, constraints and creative authorship.
-2. **AI proposal** — designs, assumptions, limitations and alternatives.
-3. **Iteration** — experiments, misunderstandings, rejected paths and corrections.
-4. **Explicit decision** — what I chose, rejected or postponed.
-5. **Implementation** — changed files, commit/PR and compatibility effects.
-6. **Verification** — what was tested in which game client, outcome and remaining unknowns.
-
-When an original conversation is unavailable, label the result **retrospective source reconstruction** and do not invent quotes. Do not publish private guild messages, credentials, or players' identifying information in a public portfolio journal. Preserve external URLs and MIT credit.
-
-## November 2026 — documenting my rename
-
-In the intermediate naming pass, I renamed the repository from **ROARemoteTrigger** to **EmoteTrigger**. It has since been renamed **RoarGuildAddonWrath**. Its work in this session consisted of reviewing existing documentation and revising titles, links and attribution. The historical installed **ROARTrigger** addon and MIT license were preserved. No live game tests were carried out.
-
-## November 2026 — my clarification of the client history
-
-The client chronology is my recollection: the Wrath 3.3.5 port came first, then a return to 1.12 and later Roarboard development in the separate guild addon. The current repository name is **RoarGuildAddonWrath**; the installed addon remains **ROARTrigger**. AI revised the documentation at my request rather than changing gameplay.
-
-## Related development history
-
-Roar Guild Addon Wrath is the Wrath 3.3.5 port of the earlier Roar Guild emote system, not a numbered sequel. Its repository was formerly ROARemoteTrigger, briefly EmoteTrigger; the installed addon remains ROARTrigger (`/rogu`, ROGUDB). It retains a **player-extensible native-emote registry** starting with ROAR, multiple configured action-slot triggers and a manually invoked guild-recruitment chat command. It does **not** include the Roarboard added to the separate Vanilla guild-addon project after returning to that client. See the [complete source-grounded timeline](EMOTE_FAMILY_HISTORY.md) for its relationship to the other emote addons.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/b5634934f8e5311917e6f51273ef11e31fb7372d/RoarGuildAddonWrath/docs/AI_COLLABORATION.md).

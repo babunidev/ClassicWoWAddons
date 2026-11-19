@@ -1,39 +1,27 @@
-# GroupBuffToggle — human–AI collaboration and authorship
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## Small controls for the default frames
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-For the default party and target frames, I wanted a lightweight, opt-in buff display. The dated source also records the addition of separate checkbox visibility settings.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-The Git history does not document every private conversation, original prompt or whether an AI generated particular code lines in September. Do **not** treat the fact that an AI wrote later documentation as proof it conceived the addon or the four-toggle interaction.
+## Who did what
 
-## AI contributions in the October 27, 2026 documentation pass
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-The assistant:
-- Inspected live GitHub source, README, TOC, 303-line Lua module, all existing docs, the MIT LICENSE and its copyright evolution.
-- Reviewed Git commit history for the **Sep 10** initial v1.1.0 upload, independent controls v1.2.0, **Sep 18** provider-neutral rename/migration, and **Oct 26** attribution/doc scaffolding.
-- Verified release **v1.2.0** metadata, including an installable ZIP and SHA256SUMS; did not download/checksum that ZIP.
-- Distinguished two buff overlays from two checkbox-visibility affordances and corrected the README's outdated statement about “two settings.”
-- Described frame anchors, icon counts, status/alias commands, periodic/event refresh, client compatibility and actual persistence.
-- Wrote or expanded **11 Markdown files** with a narrative development history, decisions, design, content, architecture, creative/AI attribution and test plan, without changing Lua/TOC/license/migration code.
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-This was **research, analysis and editorial collaboration**, not a new original concept, an implementation of new runtime functionality, a successful WoW session or a test-fixture pass.
+## Where the details are
 
-## Required recording standard going forward
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-For each substantial discussion or code change capture:
-1. **Creative direction:** what I wanted, the reason, constraints and what should remain distinct.
-2. **AI contribution:** suggestions, design options, generated code or docs, accurately attributed.
-3. **Creative iteration:** considered alternatives, rejected ideas, misunderstandings and corrections.
-4. **Creative decision:** explicitly accepted, rejected, deferred or still pending.
-5. **Implementation:** changed file paths, relevant commit/PR/release and any migration impact.
-6. **Verification:** actually executed test procedures, specific game/client environment, result and remaining unknowns.
-
-Keep publishable summaries faithful and avoid raw private conversations, identifying player buff logs, private account SavedVariables or credentials. Preserve the actual **MIT LICENSE** and historical copyright notice, rather than silently rewriting legal terms.
-
-**This portfolio documentation audit changes only Markdown files.**
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/a634daae19b25d04123754620ca097a4cd11d633/GroupBuffToggle/docs/AI_COLLABORATION.md).

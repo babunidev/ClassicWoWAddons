@@ -1,40 +1,27 @@
-# MultiActionEmotes — human–AI collaboration and attribution
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## What the available records establish
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-The creative direction for this project came from my interest in giving multiple action-bar buttons distinct expressive rhythms. The original repository name was **ROARRunlimited**; it is now **MultiActionEmotes**. The precise individual contributions to the early implementation are not fully established by the surviving code history.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-The original README, `ROARRunlimited.lua`, TOC, MIT license and dated Git changes establish the implementation and the visible evolution from physical-slot-indexed settings to numbered instances. They do **not** contain a complete human–AI conversation indicating who individually proposed every API, command or phrase.
+## Who did what
 
-The phrase “action bar into a war drum” came from me. Do not attribute this direction to an assistant simply because an assistant is documenting it later.
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-## AI contribution in the 2026-10-26 documentation pass
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-The assistant:
-- Read the live repository source, manifest, README, license and earlier short docs.
-- Examined original commits that introduced multi-slot settings, per-instance configuration and v1.1 changes.
-- Reconstructed implementation history without fabricating approvals.
-- Flagged the actual TOC/Lua case mismatch, persisted session-relative cooldown timestamps, and lazy-load/logout risk.
-- Expanded the README and documentation structure in Markdown only.
+## Where the details are
 
-These are **research, technical interpretation and writing/editing contributions**. No addon source or license was altered, no gameplay functionality was implemented, and no World of Warcraft client was run.
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-## Future development record
-
-For every substantial implementation, record the human request and rationale, AI options and their limitations, explicit creative decisions, code/document paths and Git references, tests actually run and their observations, and unverified concerns. Mark proposals as proposals; mark retrospective interpretation as inference.
-
-Do not publish sensitive private conversations, credentials or unapproved personal information in portfolio documents.
-
-## November 2026 — name and documentation
-
-After renaming the GitHub repository to **MultiActionEmotes**, I directed an AI assistant to revise the current documentation in my first-person perspective. Its contribution was research and editing, not a new addon implementation or successful live-game test. The original MIT license and all runtime files were preserved.
-
-## Related development history
-
-Multi Action Emotes (originally ROARRunlimited) made a major advance by supporting multiple independently configured watched-action-slot instances. Its **four built-in emote tokens**—ROAR, CHARGE, CHEER, FLEX—form a fixed Lua array; `slotX`, `chanceX` and `timerX` configure each instance, but there is **no command to add a new emote token**. Editable registries appear in the subsequent Roar Guild Addon and Wrath port. See [the full comparative record](EMOTE_FAMILY_HISTORY.md) for the wider evolution.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/ddb0e007c4d27d857aeff4b22c3ec6dc133078f8/MultiActionEmotes/docs/AI_COLLABORATION.md).

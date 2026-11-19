@@ -1,37 +1,29 @@
-# Action Emotes #1 — how I worked with AI
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-**Creative: Babuni**
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-## My role
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-For World of Warcraft, I wanted expressive character behavior tied to ordinary actions. The purpose, character, interaction and in-game feel were my creative decisions. Earlier WeakAuras experiments for Madaxe Mokaya informed what I wanted to bring to the older client for Buxbrew.
+## Who did what
 
-## What my AI assistant did
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **ChatGPT** | Chat assistant: ideas, research, code and text drafts in conversation | Not recorded |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Cursor** | Coding agent in the repository: research, code, documentation and tests | Not recorded |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-At the time, my AI tool was an ordinary **ChatGPT chat**. For the Lua, I asked it to help me write and change code and explain how the addon might work. It supplied suggestions and code in conversation. It did not operate my computer, edit my files, install the addon, or test World of Warcraft itself.
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-Between conversations, I copied the snippets, organized the files, ran the addon, observed its behavior and brought problems or new ideas back to the conversation. That practical back-and-forth is how I learned what I could make.
+## Where the details are
 
-## What happened later
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-In October 2026, I used AI assistance again to inspect GitHub source and commits and draft a better project record. On October 31, I explained the original experience and approved the new identity **Action Emotes #1**. The repository was subsequently renamed to `ActionEmotes-1`; the Lua and manifest retain their older identifiers.
-
-The complete original development chat has not been recovered. Those memories are my retrospective account; dated commits and source files are separate evidence. The 2026 documentation work was not a new game test.
-
-## How I want this collaboration recorded
-
-For visitors, I want the story told in **my voice**. When I describe what I wanted, decided, tried or experienced, write in first person without beginning sentences with “I” or “My.” Integrate first-person pronouns naturally, with varied sentence openings. Name the specific tool actually used for that step and its verified model.
-
-When the AI makes a proposal, writes code or documentation, or checks a repository, That contribution should remain visible too. Creative direction and AI execution are different roles. Neither should be erased or invented.
-
-For historical details, clearly distinguish my recollection, a saved conversation, a Git commit, inspected source, an implemented change, and a verified test. Do not present the prose as a verbatim quote I previously wrote; it is an AI-assisted first-person narrative based on what I told the assistant.
-
-## Related development history
-
-This first BuxbrewCharge experiment is the starting point of the action-emote line. Its ten native emotes are a **fixed code-defined pool**, not an in-game editable registry; the later Roar Guild addons introduced that capability. The documented comparison with the other World of Warcraft expressive addons is in [the emote-addon family history](EMOTE_FAMILY_HISTORY.md).
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/f03bcf9d0c929ba1b773899d746fb0ec727893a2/ActionEmotes-1/docs/AI_COLLABORATION.md).

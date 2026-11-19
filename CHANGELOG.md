@@ -1,5 +1,9 @@
 # Changelog — Classic WoW Addons
 
+## 2026-11-19 — human–AI collaboration record
+
+- Rewrote `docs/AI_COLLABORATION.md` to the shared text used in all of Babuni's repositories: how Babuni works with AI, who did what (the tools and recorded models named in this project's records) and where the details are. The earlier, longer version stays in the Git history. Claude Code (Claude Opus 5.5).
+
 ## 2026-11-19 — How the emote addons began
 
 - Added Babuni's account of the beginning to `docs/DEVLOG.md`: Madaxe Morkahja's WeakAuras battle cries in Classic Anniversary, the move to 1.12 that led to BuxbrewCharge (Action Emotes #1), and where the idea went on WoW Forever. Text supplied by Babuni; Claude Code (Claude Opus 5.5) placed it and pointed its Action Emotes #1 link into this repository.

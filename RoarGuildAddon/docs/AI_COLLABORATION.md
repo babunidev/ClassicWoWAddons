@@ -1,45 +1,27 @@
-# Roar Guild Addon — creative ownership, AI assistance and provenance
+# Human–AI collaboration
 
-Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+## How I work with AI
 
-## What the guild sounded like
+Every project here begins with something I want to see in a game, on a screen or in a story. The ideas, the direction and the decisions are mine, and so are the playtests and the checks on my own devices. AI helps me get there. In my early projects that meant asking ChatGPT for Lua in a conversation, copying the changes into local files and trying them in the game. Today coding agents work directly in the repositories: they research, write code and documentation and run tests, while I decide what to build, try it out and say what works and what doesn't.
 
-For Roar Guild, I wanted emotes to make a character feel present during ordinary play. The guild’s voice came from the same interest in curiosity, shared stories and joy.
+Two rules hold this record together. Work is credited to whoever did it: the story is told in my voice, but when AI wrote code or a document, the record says so and names the tool and, where it is known, the model. And a plan is not a result: proposed, accepted, built, tested and published stay separate, and an automated test by an AI is not the same as my own check in the game or on my phone.
 
-The Git history shows a 2026-01-10 combined RoarGuild/GodBod experiment, later removal of the exercise subsystem, expansion of user-defined emote selections and profiles, a manual-ROAR fix, a new August 2026 Roarboard subsystem, and September recruitment-text revisions. It does **not** preserve a complete human–AI design conversation explaining every individual decision.
+## Who did what
 
-Some historical PRs have `codex/` branch names, showing tool-assisted branch naming for those changes, but that alone does not allocate creative authorship or prove what code was generated versus reviewed by a human. Do not overclaim either side's contribution.
+| Who | Role | Model as recorded |
+| --- | --- | --- |
+| **Babuni** | Creative: ideas, direction, decisions, corrections, playtesting and device checks | — |
+| **Codex** | Coding agent in the repository: research, code, documentation and tests | GPT-6 |
+| **Claude Code** | Coding agent in the repository: research, code, documentation and tests | Claude Opus 5.5 |
+| **Earlier AI help** | Work that older entries describe only as “AI” | Tool and model not recorded |
 
-## This 2026-10-26 audit
+The journal and the changelog name the tool for each piece of AI work. A model that was not recorded stays unrecorded rather than guessed.
 
-An AI assistant inspected `README.md`, `roarguild.lua`, `roarguild.toc`, the existing MIT license, prior short docs and representative Git commit diffs. It documented current behavior, the historical stages, Roarboard's custom-channel trust limitations and pending client tests. It drafted and committed eleven Markdown documentation files only.
+## Where the details are
 
-**The AI did not conceive the RoarGuild concept in this session, approve new features, modify runtime source, make guild policy, test the game client, or validate Roarboard's security.**
+- [Development journal](DEVLOG.md): the story of the project in my voice, including what I asked for and what AI did.
+- [Decision record](DECISIONS.md): what was decided, by whom and why.
+- [Changelog](../CHANGELOG.md): what changed and how it was checked.
+- [Documentation standard](DOCUMENTATION.md) and [AGENTS.md](../AGENTS.md): the writing and working rules for everyone who contributes, human or AI.
 
-## How to record future collaboration
-
-For material changes, preserve:
-1. The creative's original direction and why it mattered.
-2. AI suggestions, architecture and tradeoffs—not silently accepted requirements.
-3. Alternative approaches, misunderstandings, iterations and corrections.
-4. Explicit decisions I accepted, rejected or postponed.
-5. Actual file paths, commits, PRs and migration notes.
-6. Tests performed, observed results and limits to confidence.
-
-Write publishable narrative summaries, not raw private chat transcripts. Keep other players' chat messages, personal information, account IDs, credentials and unreleased guild decisions out of public records.
-
-## Attribution and legal boundary
-
-The repository's existing MIT LICENSE is credited to **Babuni (2026)**. Displayed author credit in the TOC and README agrees. Licensing and source credit should be maintained without silent changes. Any third-party game emotes or user-generated board content have their own origin and must not be rebranded as Babuni-authored prose.
-
-## November 2026 — guild and addon distinction
-
-The decision to rename this repository **RoarGuildAddon** came from my wish to separate the actual ROAR guild from the addon made for its members. The original hope was that members would use the emotes, invitations and other social features. An AI assistant updated the current documentation at my request, without changing addon code or independently verifying member adoption.
-
-## Related development history
-
-Roar Guild Addon (originally RoarGuild) combines the earlier multi-action trigger concept with an **expandable registry of client-native emote tokens**. Its master list starts with ROAR (ID 1), players can register additional client emote tokens via `/rogu emote <TOKEN>`, and select their IDs for individual trigger instances. Guild invitation messages are **manual recruitment chat broadcasts**, while the later August 2026 Roarboard provides a separate community feature. This Vanilla 1.12 history is distinct from the Wrath-targeted ROARTrigger port. Read [the full family timeline](EMOTE_FAMILY_HISTORY.md) for how these capabilities arose in the related repositories.
-
-## 18 November 2026 — Collaboration record review
-
-At my request, Codex (GPT-6) revised this record for first-person voice and checked the attribution against the available repository documentation. Where an earlier AI tool or model is missing from the record, its identity remains unconfirmed.
+The earlier, longer version of this record, as it stood on 19 November 2026, is kept in the [Git history](https://github.com/babunidev/ClassicWoWAddons/blob/bcb9d87c0b3153794ab9445f8c4b0528c6d6bfc4/RoarGuildAddon/docs/AI_COLLABORATION.md).
