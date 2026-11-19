@@ -1,8 +1,0 @@
-## Interface: 11200
-## Title: The Great Iceflow Relay
-## Notes: type /iceflow rules for the rules and /iceflow for th commands.
-## Author: Babuni.dev
-## Version: 0.72
-
-
-TheGreatIceflowRelay.lua

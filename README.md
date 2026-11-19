@@ -31,7 +31,6 @@ Earlier releases of LootFeed and BattleReport are kept in [`downloads/older/`](d
 | [LootFeed](LootFeed/README.md) | 1.12 | `LootFeed` | Animated loot and group-roll information display. | [LootFeed.zip](downloads/LootFeed.zip) |
 | [MeleeStartAttack](MeleeStartAttack/README.md) | 1.12 | `MeleeStartAttack` | Attack-start helper for several melee classes. | [MeleeStartAttack.zip](downloads/MeleeStartAttack.zip) |
 | [ResistInsight](ResistInsight/README.md) | 1.12 | `BuxbrewResist` | On-hold resistance-tooltip addon for WoW 1.12 and predecessor of ResistForever; explains estimated spell resistance and damage reduction. | [ResistInsight.zip](downloads/ResistInsight.zip) |
-| [The Great Iceflow Relay](TheGreatIceflowRelay/README.md) | 1.12 | `TheGreatIceflowRelay` | Player-organized WoW ball-passing checkpoint minigame. | [TheGreatIceflowRelay.zip](downloads/TheGreatIceflowRelay.zip) |
 | [TotemTimers](TotemTimers/README.md) | 1.12 | `TotemTimers` | Shaman totem, shield and weapon-enhancement tracking. | [TotemTimers.zip](downloads/TotemTimers.zip) |
 | [WarriorStartAttack](WarriorStartAttack/README.md) | 1.12 | `WarriorStartAttack` | Auto-attack helper for warrior abilities. | [WarriorStartAttack.zip](downloads/WarriorStartAttack.zip) |
 | [WorkThatGodBod](WorkThatGodBod/README.md) | 1.12 | `WorkThatGodBod` | In-game posture, movement and hydration reminders. | [WorkThatGodBod.zip](downloads/WorkThatGodBod.zip) |

@@ -8,6 +8,10 @@ Most of my old World of Warcraft addons were small projects for the 1.12 and 3.3
 
 Claude Code (Claude Opus 5.5) checked the roadmaps first. Apart from RoarSoundEffects and ResistInsight, which say they are finished, they contained only verification checklists and unapproved ideas written during the October documentation audits, no features I had decided to build, so I chose to include all 21. The WoW Forever addons stay separate because they are active and publish to CurseForge. AI merged each repository with its complete history into its own folder, built install zips from the runtime files where no release existed and copied the existing release zips after verifying their checksums. The old repositories are deleted once this collection is published; GitHub keeps them restorable for 90 days.
 
+## 2026-11-19 — The Great Iceflow Relay goes its own way again
+
+The same evening I decided that The Great Iceflow Relay should get a WoW Forever edition. That is further development, so it no longer belongs here. Claude Code (Claude Opus 5.5) had already deleted its repository; at my choice it recreated it from the complete local history and took the folder out of this collection.
+
 ## Retrospective — the expressive addon family (August 2025 to October 2026)
 
 *Compiled by Babuni on 1 November 2026 in FlourishForever's `docs/EMOTE_FAMILY_HISTORY.md` and reproduced here; links now point to the folders in this collection.*
