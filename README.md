@@ -44,8 +44,8 @@ Client-side verification is still outstanding for event callbacks, saved-variabl
 
 ## Project documentation
 
-- [Creative concept](CONCEPT.md) · [Experience design](docs/DESIGN.md) · [Emote content](docs/CONTENT.md)
-- [Architecture](docs/ARCHITECTURE.md) · [Decisions](docs/DECISIONS.md) · [Roadmap](ROADMAP.md)
+- [Creative concept](docs/CONCEPT.md) · [Experience design](docs/DESIGN.md) · [Emote content](docs/CONTENT.md)
+- [Architecture](docs/ARCHITECTURE.md) · [Decisions](docs/DECISIONS.md) · [Roadmap](docs/ROADMAP.md)
 - [Development journal](docs/DEVLOG.md) · [Changelog](CHANGELOG.md)
 - [AI collaboration](docs/AI_COLLABORATION.md) · [Development instructions](AGENTS.md)
 

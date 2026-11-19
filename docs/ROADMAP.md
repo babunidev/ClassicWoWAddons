@@ -25,4 +25,4 @@ These are verification tasks, **not approved feature additions**. No new gamepla
 
 ## Related development history
 
-Stealth Emotes (originally Amazin) is a playful Rogue-oriented parallel experiment created for my younger brother. The current addon has 12 fixed built-in emote tokens, configurable chance/cooldown and a watched action slot; it does not confirm Stealth, and it cannot add emote tokens through a player command. See the [comparative history of the expressive addons](docs/EMOTE_FAMILY_HISTORY.md) for the broader source-backed chronology.
+Stealth Emotes (originally Amazin) is a playful Rogue-oriented parallel experiment created for my younger brother. The current addon has 12 fixed built-in emote tokens, configurable chance/cooldown and a watched action slot; it does not confirm Stealth, and it cannot add emote tokens through a player command. See the [comparative history of the expressive addons](EMOTE_FAMILY_HISTORY.md) for the broader source-backed chronology.
