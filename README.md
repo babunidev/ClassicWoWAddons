@@ -86,9 +86,9 @@ This is a **separate repository** from [`roar`](https://github.com/babunidev/Bat
 
 The existing [MIT license](LICENSE) credits **Babuni (2026)**. The license covers repository software; it does not grant redistribution rights to Blizzard's game audio assets.
 
-- [Creative concept](CONCEPT.md) · [Interaction and sound design](docs/DESIGN.md) · [Audio/content inventory](docs/CONTENT.md)
+- [Creative concept](docs/CONCEPT.md) · [Interaction and sound design](docs/DESIGN.md) · [Audio/content inventory](docs/CONTENT.md)
 - [Technical architecture](docs/ARCHITECTURE.md) · [Decisions and unresolved questions](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
-- [Completion status and compatibility notes](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Completion status and compatibility notes](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer/AI rules](AGENTS.md)
 
 ## Relationship to the action-emote projects

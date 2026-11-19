@@ -22,7 +22,7 @@ Compatibility is conditional: the TOC declares `30300`; playback depends on the 
 
 ## Engineering and compatibility
 
-- Read `README.md`, `CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md`, current `ROAR/ROAR.lua`, `ROAR/ROAR.toc`, and Git history before changing behavior.
+- Read `README.md`, `docs/CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md`, current `ROAR/ROAR.lua`, `ROAR/ROAR.toc`, and Git history before changing behavior.
 - The TOC currently declares **30300**; do not automatically claim Vanilla 1.12 support.
 - Play built-in **client** assets, not redistributed audio. Only 16 sound paths from eight race families exist in the current mapping.
 - Current source uses legacy event globals `event`, `arg1`, `arg2`, `UnitRace`, `UnitSex`, unit token APIs and `PlaySoundFile`. Test them against the intended client.
@@ -52,3 +52,7 @@ Use [the full expressive-addon history](docs/EMOTE_FAMILY_HISTORY.md) for cross-
 ## Repository-local documentation standard
 
 Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.
