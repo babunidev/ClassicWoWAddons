@@ -1,0 +1,12 @@
+## Interface: 11200
+## Title: Battle Report
+## Notes: Lightweight personal combat reports, live and after each fight.
+## Author: Babuni.dev
+## Version: 1.6.5
+## SavedVariablesPerCharacter: BattleReportDB
+
+Core.lua
+Average.lua
+Resources.lua
+Parser.lua
+UI.lua
