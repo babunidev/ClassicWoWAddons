@@ -111,7 +111,7 @@ Screenshots depict World of Warcraft; game artwork belongs to its respective own
 
 ## Development documentation
 
-- [Creative concept](CONCEPT.md) · [Verification roadmap](ROADMAP.md) · [Git and release changelog](CHANGELOG.md)
+- [Creative concept](docs/CONCEPT.md) · [Verification roadmap](docs/ROADMAP.md) · [Git and release changelog](CHANGELOG.md)
 - [C++ and installer architecture](docs/ARCHITECTURE.md) · [Visual design](docs/DESIGN.md) · [Assets and packaging](docs/CONTENT.md)
 - [Decisions and tradeoffs](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Contributor rules](AGENTS.md)

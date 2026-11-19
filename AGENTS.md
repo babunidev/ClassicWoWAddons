@@ -12,7 +12,7 @@ This is not a Lua addon. Do not propose installation under Interface/AddOns. It 
 
 ## Safe source/installer workflow
 
-1. Read current [README](README.md), [concept](CONCEPT.md), [roadmap](ROADMAP.md), [architecture](docs/ARCHITECTURE.md), [decisions](docs/DECISIONS.md), [journal](docs/DEVLOG.md) and original C++/PowerShell scripts before editing.
+1. Read current [README](README.md), [concept](docs/CONCEPT.md), [roadmap](docs/ROADMAP.md), [architecture](docs/ARCHITECTURE.md), [decisions](docs/DECISIONS.md), [journal](docs/DEVLOG.md) and original C++/PowerShell scripts before editing.
 2. Require verified x86 build and **do not weaken** executable SHA-256, five runtime signatures or fixed-base checks to enable unsupported clients. Do not patch the executable on disk by default.
 3. `VisualPair.h` encodes only four Shaman visual values, preserves nonqualifying/duplicate/built-in-priority values, and uses a temporary marker *only between selection and rendering*. Never persist marker bytes to item records, DBC fields, disk or network packets.
 4. Native code uses MinHook for two visual selectors and renderer; `AppendVisual` enters the supported client renderer **after its clear-children step**. Changing this is memory-safety-sensitive and requires real-client tests, not just static inspection.
@@ -32,3 +32,7 @@ Update README, CONCEPT, ROADMAP, CHANGELOG, AGENTS, docs/ARCHITECTURE, docs/DESI
 ## Repository-local documentation standard
 
 Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.

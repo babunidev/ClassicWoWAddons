@@ -13,9 +13,9 @@ The design has four recognizable variations preserved in the repository:
 
 | Rockbiter | Flametongue |
 | --- | --- |
-| ![Rockbiter and permanent blue glow](../docs/screenshots/rockbiter.png) | ![Flametongue and permanent blue glow](../docs/screenshots/flametongue.png) |
+| ![Rockbiter and permanent blue glow](screenshots/rockbiter.png) | ![Flametongue and permanent blue glow](screenshots/flametongue.png) |
 | Windfury | Frostbrand |
-| ![Windfury and permanent blue glow](../docs/screenshots/windfury.png) | ![Frostbrand and permanent blue glow](../docs/screenshots/frostbrand.png) |
+| ![Windfury and permanent blue glow](screenshots/windfury.png) | ![Frostbrand and permanent blue glow](screenshots/frostbrand.png) |
 
 These screenshots document **the earlier September 11 build**, not a separately confirmed visual run of the renamed **v1.0.1 binary**.
 
