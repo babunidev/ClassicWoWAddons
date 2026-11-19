@@ -1,5 +1,12 @@
 # Changelog — Classic WoW Addons
 
+## 2026-11-19 — GitHub records of the former repositories
+
+- Added `docs/github-archive/<Addon>.md` for all 21 former repositories: 31 pull requests with descriptions and comments, and the notes of 14 releases. The former repositories had no issues and no wiki pages.
+- Kept the 22 pull requests that were still open as branches `archive/<Addon>-pr<number>`, unmerged.
+- Links in the addon documents to the former repositories now lead to the matching folder, commit or `downloads/` in this repository.
+- Claude Code (Claude Opus 5.5).
+
 ## 2026-11-19 — Collection created
 
 - Merged 21 repositories with their full Git history, one folder each: ActionEmotes-1, ActionEmotes-2, StealthEmotes, BattleEmotesLegacy, BattleEmotes, MultiActionEmotes, RoarGuildAddon, RoarGuildAddonWrath, RoarSoundEffects, TotemTimers, GroupBuffToggle, LootFeed, BattleReport, WorkThatGodBod, TheGreatIceflowRelay, MeleeStartAttack, WarriorStartAttack, ResistInsight, LevelUpAnnouncer, GuildChatBridge and EnchantVisuals. No addon code changed.

@@ -46,6 +46,10 @@ Most of these began as ways to give my characters more personality in ordinary p
 
 [FlourishForever](https://github.com/babunidev/FlourishForever) · [RoarForever](https://github.com/babunidev/RoarForever) · [SocialForever](https://github.com/babunidev/SocialForever) · [ResistForever](https://github.com/babunidev/ResistForever) · [ClearViewForever](https://github.com/babunidev/ClearViewForever) · [FavorCraft](https://github.com/babunidev/favorcraft) · [GatherMap](https://github.com/babunidev/GatherMap)
 
+## Former repositories
+
+Each folder was its own GitHub repository until 19 November 2026. Their pull requests and release notes are preserved in [`docs/github-archive/`](docs/github-archive/). Pull requests that were still open (mostly readability rewrites from November 2026, never merged) keep their changes on branches named `archive/<Addon>-pr<number>`; they are records, not merged work.
+
 ## License
 
 Each addon keeps its own [MIT](LICENSE) license file and copyright line in its folder; asset and third-party notices stay with the addon they belong to. The collection's own documents are MIT-licensed as well.
