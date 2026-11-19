@@ -90,13 +90,13 @@ No other preferences are saved in the source (in particular, enabled/disabled st
 - True multilingual compatibility was not independently tested; it is the **icon-based design goal**.
 - Original software is now licensed under [MIT](LICENSE), by Babuni's explicit decision of 13 November 2026.
 
-The [roadmap](ROADMAP.md) gives a reproducible target-client test matrix. Everything above describes current code, **not proven gameplay performance**.
+The [roadmap](docs/ROADMAP.md) gives a reproducible target-client test matrix. Everything above describes current code, **not proven gameplay performance**.
 
 ## Portfolio and development record
 
 The repository began **August 22, 2026** as a broader class-based alternative. On August 29 it added custom ability learning and direct cast/macro interception; on August 30 it improved attack-state detection; on August 31 it gained **per-class saved start and stop choices**, including migration from older data. September 18 made naming provider-neutral. October 26 brought Babuni.dev author credit and structured documentation.
 
-- [Creative concept](CONCEPT.md) · [Design](docs/DESIGN.md) · [Ability inventory](docs/CONTENT.md)
+- [Creative concept](docs/CONCEPT.md) · [Design](docs/DESIGN.md) · [Ability inventory](docs/CONTENT.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Decisions](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
-- [Roadmap / verification](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Roadmap / verification](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Agent rules](AGENTS.md)
