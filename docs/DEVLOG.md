@@ -2,15 +2,15 @@
 
 This journal covers the collection as a whole. Each addon's own development journal stays in its folder (`<addon>/docs/DEVLOG.md`) with its original dates and wording.
 
+## 2026-11-19 — The Great Iceflow Relay goes its own way again
+
+The same evening I decided that The Great Iceflow Relay should get a WoW Forever edition. That is further development, so it no longer belongs here. Claude Code (Claude Opus 5.5) had already deleted its repository; at my choice it recreated it from the complete local history and took the folder out of this collection.
+
 ## 2026-11-19 — One home for the finished addons
 
 Most of my old World of Warcraft addons were small projects for the 1.12 and 3.3.5 clients, each in its own repository and each with its own tile on babuni.dev. Together they cluttered both GitHub and the website, and I am not going to develop them further. I decided to put all of them into one repository, each folder keeping its documentation, and to offer ready install zips for download. Addons with real plans for further development were to keep their own repositories.
 
 Claude Code (Claude Opus 5.5) checked the roadmaps first. Apart from RoarSoundEffects and ResistInsight, which say they are finished, they contained only verification checklists and unapproved ideas written during the October documentation audits, no features I had decided to build, so I chose to include all 21. The WoW Forever addons stay separate because they are active and publish to CurseForge. AI merged each repository with its complete history into its own folder, built install zips from the runtime files where no release existed and copied the existing release zips after verifying their checksums. The old repositories are deleted once this collection is published; GitHub keeps them restorable for 90 days.
-
-## 2026-11-19 — The Great Iceflow Relay goes its own way again
-
-The same evening I decided that The Great Iceflow Relay should get a WoW Forever edition. That is further development, so it no longer belongs here. Claude Code (Claude Opus 5.5) had already deleted its repository; at my choice it recreated it from the complete local history and took the folder out of this collection.
 
 ## Action Emotes #1 — how it began
 
