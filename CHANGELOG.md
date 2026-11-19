@@ -2,6 +2,10 @@
 
 **Project author:** Babuni. The following dates are **Git commit dates**, not claimed public releases or runtime verification.
 
+## 2026-11-19 — documentation moved into `docs/`
+
+- Moved `CONCEPT.md` and `ROADMAP.md` into `docs/`. The root keeps only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md`; links to the moved files and the documentation rules in `AGENTS.md` were updated. No code changed. Claude Code (Claude Opus 5.5).
+
 ## 2026-10-26 — full project documentation
 
 - Expanded README, concept, roadmap, architecture, design, content inventory, decisions, narrative journal, attribution and development rules.

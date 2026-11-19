@@ -117,9 +117,9 @@ For source provenance and how the package evolved, see [the journal](docs/DEVLOG
 
 ## Development documentation
 
-- [Creative concept](CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Guild content and emotes](docs/CONTENT.md)
+- [Creative concept](docs/CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Guild content and emotes](docs/CONTENT.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Design and technical decisions](docs/DECISIONS.md) · [Development journal](docs/DEVLOG.md)
-- [Verification roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Verification roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [AI collaboration and attribution](docs/AI_COLLABORATION.md) · [Development-agent instructions](AGENTS.md)
 
 ## Place in the expressive-addon history

@@ -29,7 +29,7 @@ This is a **Wrath 3.3.5 / interface 30300** artifact and has **no Roarboard**. D
 
 1. Respect Babuni's ownership of the concept and all explicitly recorded user decisions.
 2. Clearly distinguish AI-proposed features, implementation, retrospective interpretation, rejected alternatives, and in-game verification.
-3. Maintain `README.md`, `CONCEPT.md`, `ROADMAP.md`, `CHANGELOG.md`, `AGENTS.md`, and `docs/DEVLOG.md`, `docs/DECISIONS.md`, `docs/DESIGN.md`, `docs/CONTENT.md`, `docs/ARCHITECTURE.md`, `docs/AI_COLLABORATION.md`.
+3. Maintain `README.md`, `docs/CONCEPT.md`, `docs/ROADMAP.md`, `CHANGELOG.md`, `AGENTS.md`, and `docs/DEVLOG.md`, `docs/DECISIONS.md`, `docs/DESIGN.md`, `docs/CONTENT.md`, `docs/ARCHITECTURE.md`, `docs/AI_COLLABORATION.md`.
 4. Test against the exact Wrath 3.3.5 environment before declaring API support. Preserve `UseAction` execution and check coexistence with other action-hook addons.
 5. Do not expose private conversations, credentials or actual player chat in a public portfolio narrative.
 6. Preserve MIT license, author credit and existing source identifiers; avoid runtime edits in documentation-only changes.
@@ -43,3 +43,7 @@ Consult [the family history](docs/EMOTE_FAMILY_HISTORY.md) before making lineage
 ## Repository-local documentation standard
 
 Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.
