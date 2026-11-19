@@ -33,6 +33,6 @@ The repository name changed from `GuildChatAI` to `GuildChatBridge` on October 3
 
 ## Documentation
 
-[Concept](CONCEPT.md) · [Roadmap](ROADMAP.md) · [Architecture](docs/ARCHITECTURE.md) · [Experience design](docs/DESIGN.md) · [Content](docs/CONTENT.md) · [Decisions](docs/DECISIONS.md) · [Development journal](docs/DEVLOG.md) · [Changelog](CHANGELOG.md) · [AI collaboration](docs/AI_COLLABORATION.md) · [Development rules](AGENTS.md)
+[Concept](docs/CONCEPT.md) · [Roadmap](docs/ROADMAP.md) · [Architecture](docs/ARCHITECTURE.md) · [Experience design](docs/DESIGN.md) · [Content](docs/CONTENT.md) · [Decisions](docs/DECISIONS.md) · [Development journal](docs/DEVLOG.md) · [Changelog](CHANGELOG.md) · [AI collaboration](docs/AI_COLLABORATION.md) · [Development rules](AGENTS.md)
 
 The [historical README](docs/HISTORICAL_README.md) remains an unmodified archival snapshot. This README describes the present understanding, not a verified release.

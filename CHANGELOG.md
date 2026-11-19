@@ -2,6 +2,10 @@
 
 Implemented repository changes are recorded here; ideas and unverified behavior belong in the roadmap or journal.
 
+## 2026-11-19 — documentation moved into `docs/`
+
+- Moved `CONCEPT.md` and `ROADMAP.md` into `docs/`. The root keeps only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md`; links to the moved files and the documentation rules in `AGENTS.md` were updated. No code changed. Claude Code (Claude Opus 5.5).
+
 ## 2025-08-20 — original source recorded
 
 - [Initial Lua upload](https://github.com/babunidev/GuildChatBridge/commit/bd6afe4ab9b9c306ea234525aeef2f67a1617e0d): Event handlers for guild messages and roster updates, storage and a manual guild-chat send command.

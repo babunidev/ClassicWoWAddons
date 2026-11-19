@@ -27,4 +27,4 @@ A less autonomous version, in which an AI offers roleplay lines for me to send, 
 
 ## Evidence
 
-This creative account was supplied by me on October 31, 2026, after the original prototype. The repository proves that logging and a manual-send command were written; it does not prove that the imagined AI behavior was implemented, tested or approved for a server. See [the journal](docs/DEVLOG.md) and [architecture](docs/ARCHITECTURE.md).
+This creative account was supplied by me on October 31, 2026, after the original prototype. The repository proves that logging and a manual-send command were written; it does not prove that the imagined AI behavior was implemented, tested or approved for a server. See [the journal](DEVLOG.md) and [architecture](ARCHITECTURE.md).
