@@ -1,0 +1,41 @@
+# WarriorStartAttack — instructions for AI and human developers
+
+**Human creative and decision-maker:** Babuni.
+**Purpose:** Minimal Warrior combat-input quality-of-life in Vanilla WoW 1.12.1.
+
+## Respect the design
+
+- A whitelisted offensive **attempt**, not a successful cast, can start white melee auto-attacks against a living hostile target.
+- Repeated presses should **not turn auto-attack off**. `AttackTarget()` is a toggle; avoid blindly calling it.
+- Intimidating Shout is an intentional stop-attack exception. Preserve that idea until the creative approves a behavior change.
+- Use client icon paths as existing language-independent recognition, but note they aren't unique spell IDs.
+- Keep the product lightweight; do not add rotation automation, targeting logic, GUI or persisted settings without explicit direction.
+- Original software is MIT-licensed under `LICENSE` by Babuni's explicit decision of 13 November 2026. Preserve external rights.
+
+## Source review before editing
+
+Read `README.md`, `docs/CONCEPT.md`, `docs/ROADMAP.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md` and the **actual** `WarriorStartAttack.lua`/`.toc`.
+
+Pay special attention to:
+1. `UseAction`, `CastSpell`, `CastSpellByName` are **global wrappers**; preserve argument delegation and test with other addons.
+2. `IsAutoAttacking` scans **slots 1–120** for the active Attack action, falling back to a `PLAYER_ENTER_COMBAT`/`PLAYER_LEAVE_COMBAT` flag. Combat state is not necessarily identical to auto-attack activity.
+3. `StartAttackIfPossible` requires Warrior, living target and attackable target; `StopAttackIfActive` **does not** check Warrior.
+4. Icon-sharing across spells may produce false matches, and missing textures may prevent activation.
+5. Lua 5.0 / 1.12 API behavior must be tested on the intended actual game client; do not assume modern API equivalents.
+6. No network calls, SavedVariables, runtime settings or slash commands are currently present.
+
+## Collaboration and implementation record
+
+Record human direction and its rationale, AI alternatives/proposals, iteration/disagreements, explicit creative acceptance or rejection, source/document paths and commit, and **what was actually tested**. Distinguish source analysis from successful in-game execution.
+
+For material changes, update relevant README, CONCEPT, ROADMAP, CHANGELOG, AGENTS, DEVLOG, DECISIONS, DESIGN, CONTENT, ARCHITECTURE and AI_COLLABORATION entries. Do not publish private conversations, credentials or unrelated player information.
+
+The October 26, 2026 audit is **documentation only**; no gameplay code is authorized for change in this task.
+
+## Repository-local documentation standard
+
+Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.
