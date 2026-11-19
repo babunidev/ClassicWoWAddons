@@ -12,7 +12,7 @@ Write public-facing history in my first-person perspective, never starting a sen
 
 ROARRunlimited is the **multi-instance** branch of the action-triggered emote idea: each numbered instance configures a physical action slot, chance and cooldown. Keep that architecture distinct from the single-slot `roar` and `roarr` repositories and from later RoarForever unless specific Git or creative evidence establishes a connection.
 
-Read `README.md`, `CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md` and current Lua/TOC before designing any change.
+Read `README.md`, `docs/CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md` and current Lua/TOC before designing any change.
 
 ## Collaboration history and truthfulness
 
@@ -42,3 +42,7 @@ Consult [the emote-family history](docs/EMOTE_FAMILY_HISTORY.md) before describi
 ## Repository-local documentation standard
 
 Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.

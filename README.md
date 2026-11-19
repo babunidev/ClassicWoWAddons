@@ -78,13 +78,13 @@ Configuration is stored in account-wide `ROEDDB`. The nested `slots` entries inc
 
 The repository has an **MIT LICENSE**, credited to Babuni. The source itself retains an older `babunigaming` author comment, which is part of historical source and was left untouched.
 
-This README reflects static source inspection. The following are **not yet tested in the game**: filename-case loading, all slash commands, multi-instance output, restart persistence, behavior alongside other `UseAction` hooks, and cross-client emote token support. See the [roadmap](ROADMAP.md) for an actionable test checklist.
+This README reflects static source inspection. The following are **not yet tested in the game**: filename-case loading, all slash commands, multi-instance output, restart persistence, behavior alongside other `UseAction` hooks, and cross-client emote token support. See the [roadmap](docs/ROADMAP.md) for an actionable test checklist.
 
 ## Project documentation
 
-- [Concept](CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Content](docs/CONTENT.md)
+- [Concept](docs/CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Content](docs/CONTENT.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Decisions and alternatives](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
-- [Verification roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Verification roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [AI development instructions](AGENTS.md)
 
 Documentation distinguishes Babuni's authorship, demonstrable Git history, AI editorial work, and in-game behavior still awaiting verification.
