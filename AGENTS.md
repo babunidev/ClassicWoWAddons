@@ -17,7 +17,7 @@ Keep changelog entries factual and technical details concise. Keep development j
 
 The repository is now `ActionEmotes-1`, originally `BuxbrewCharge`. Preserve historical Lua, TOC and slash-command identifiers unless Babuni explicitly approves a runtime migration.
 
-1. Inspect `README.md`, `CONCEPT.md`, `docs/DECISIONS.md` and `BuxbrewCharge/` Lua/TOC before changing functionality.
+1. Inspect `README.md`, `docs/CONCEPT.md`, `docs/DECISIONS.md` and `BuxbrewCharge/` Lua/TOC before changing functionality.
 2. Credit Babuni's creative direction and hands-on development; separately record AI code, analysis and documentation contributions.
 3. Never fabricate historical events or approvals. Distinguish recollection, source evidence, implementation and verification.
 4. Do not change gameplay, the single-slot trigger, emote pool or timing without explicit direction.
@@ -35,3 +35,7 @@ Read [the emote-addon family history](docs/EMOTE_FAMILY_HISTORY.md) before makin
 ## Repository-local documentation standard
 
 Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.
