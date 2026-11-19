@@ -2,6 +2,10 @@
 
 **Creator:** Babuni.dev. Dates below distinguish source commits from release metadata and unverified usage.
 
+## 2026-11-19 — documentation moved into `docs/`
+
+- Moved `CONCEPT.md`, `ROADMAP.md` and `GUIDE.md` into `docs/`. The root keeps only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md`; links to the moved files and the documentation rules in `AGENTS.md` were updated. No code changed. Claude Code (Claude Opus 5.5).
+
 ## October 26, 2026 — full documentation audit
 
 Expanded eleven Markdown files: README, concept, roadmap, changelog, agent rules, architecture, design, content, decisions, narrative journal and AI collaboration. The detailed preexisting GUIDE.md remains unchanged. Verified a published v1.6.5 release containing ZIP and checksum assets and corrected README download links to the current babunidev owner, plus the **/breport** alias. **Docs only:** no runtime scripts, tests, migration logic or media changed. No test was run.

@@ -122,7 +122,7 @@ Effect gains are not always separate procs, and hits or periodic ticks are not s
 | `/battlereport position` | Restore window and launcher positions |
 | `/battlereport source` | Explain how to label an effect's source |
 
-For capture details, fight boundaries and testing notes, see the [detailed guide](GUIDE.md).
+For capture details, fight boundaries and testing notes, see the [detailed guide](docs/GUIDE.md).
 
 ### Combat-only recording
 
@@ -138,7 +138,7 @@ This project started as **Octo Battle Report**. Its September rename changed bot
 
 ## Development documentation
 
-- [Concept](CONCEPT.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Concept](docs/CONCEPT.md) · [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Interaction design](docs/DESIGN.md) · [Data and content](docs/CONTENT.md)
 - [Decisions](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer / AI instructions](AGENTS.md)
