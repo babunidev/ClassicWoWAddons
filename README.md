@@ -84,9 +84,9 @@ The separate `roarr` repository has the same core implementation, whereas RoarGu
 
 ## Documentation
 
-- [Creative concept](CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Emote content](docs/CONTENT.md)
+- [Creative concept](docs/CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Emote content](docs/CONTENT.md)
 - [Technical architecture](docs/ARCHITECTURE.md) · [Decisions and alternatives](docs/DECISIONS.md) · [Development journal](docs/DEVLOG.md)
-- [Roadmap / verification](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Roadmap / verification](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer instructions](AGENTS.md)
 
 This project record distinguishes the human creative's authorship, AI documentation assistance, historically observable code changes, and behavior that has not yet been checked in-game.

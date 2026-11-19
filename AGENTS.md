@@ -16,7 +16,7 @@ The core experience is player-triggered battle emotes, with configurable chance,
 
 ## Standards
 
-1. Before changing anything, inspect `README.md`, `CONCEPT.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md`, `roarr.lua` and `roarr.toc`.
+1. Before changing anything, inspect `README.md`, `docs/CONCEPT.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md`, `roarr.lua` and `roarr.toc`.
 2. Record **creative direction**, **AI proposals**, **accepted/rejected alternatives**, **actual changes**, **commit references** and **verification evidence** separately.
 3. Use dated Git diffs for historical claims. Do not invent reasons for repeated November 2025 renames, deletions or code revisions.
 4. Maintain Babuni credit, but **preserve the existing MIT license** and its historical 2025 copyright line until appropriate ownership clarification; never rewrite legal attribution speculatively.
@@ -44,3 +44,7 @@ Use [the family history](docs/EMOTE_FAMILY_HISTORY.md) for lineage claims. This 
 ## Repository-local documentation standard
 
 Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.
