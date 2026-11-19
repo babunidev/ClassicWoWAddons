@@ -1,0 +1,67 @@
+# Action Emotes #1 — change history
+
+**Creative:** Babuni
+
+## 2026-11-19 — documentation moved into `docs/`
+
+- Moved `CONCEPT.md` and `ROADMAP.md` into `docs/`. The root keeps only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md`; links to the moved files and the documentation rules in `AGENTS.md` were updated. No code changed. Claude Code (Claude Opus 5.5).
+
+## 2026-10-26 — my documentation review
+
+- At my request, AI replaced the minimal README and short outlines with source-grounded usage, architecture, creative intent, content inventory, decision register, journal and AI attribution.
+- The review identified the committed `BuxbreCharge.toc` spelling as a packaging risk requiring a live install check.
+- **Documentation only:** no Lua, TOC or client behavior was changed; no test was executed.
+
+## Earlier GitHub history
+
+- **2025-08-18:** manifest and Lua source first added (`8bd4a0f`, `e88f139`).
+- **2025-11-01:** The emote pool was reduced from 20 to 10 tokens, adding `BORED` and `WHISTLE` (`de0c85d`); the reasoning is not recorded in the diff.
+- **2026-01-10:** Slash-command parsing changed from `string.match` to `string.find` (`3ff0fcc`); the reason is not recorded in the diff.
+- **2026-09-18:** compatibility/provider-neutral description cleanup (`41c5b32`).
+- **2026-10-26:** author-credit and initial documentation commits preceded this expansion.
+
+The older diffs now establish what changed, but not why those revisions were made.
+
+## 2026-10-31 — first-person project documentation
+
+- On October 31, I explained the original development experience and asked my AI assistant to rewrite the project record in my own perspective.
+- The README, concept, development journal, collaboration account, decisions and other documentation were revised; the instructions for future AI documentation now require first-person narration.
+- This is documentation work. No in-game verification or gameplay modification was performed.
+
+## 2026-10-31 — narrative and evidence review
+
+- At my direction, AI revised the documents to follow the new creative-first writing rules, with varied sentence openings and clear attribution.
+- Inspection of earlier Lua diffs clarified the emote-pool and parser changes; the development journal was condensed.
+- **Documentation only:** no Lua, manifest or license change and no fresh in-game test.
+
+## 2026-10-31 — installation packaging correction
+
+- Following my request to repair installation packaging, AI moved the unchanged Lua source and existing TOC contents into an installable `BuxbrewCharge/` folder and corrected the manifest filename to `BuxbrewCharge.toc`.
+- Documentation was updated to distinguish the repository name (`ActionEmotes-1`) from the addon folder installed in `Interface/AddOns/`.
+- **Verified:** file layout, manifest reference and unchanged Lua content by Git object identity. **Not yet verified:** loading or behavior in a WoW 1.12 client.
+
+## 2026-10-31 — WoW 1.12 event compatibility
+
+- At my request, AI replaced the newer-style `OnEvent(self, event)` callback with the original WoW 1.12 global-`event` convention. The initialization and logout branches now receive the correct event name under that API.
+- The unused `PLAYER_LOGIN` registration and `math.randomseed` call were removed. The client handles random-generator initialization; the emote-selection logic remains unchanged.
+- A mocked legacy-event smoke test was added to the existing packaging checks. This verifies event dispatch and slot persistence in a simulated environment, **not** in a running WoW client.
+- No emote, cooldown, action-hook, slash-command, manifest or licensing changes were made.
+
+## 2026-10-31 — emote token, slot validation and first-use cooldown
+
+- At my request, AI corrected the `/attacktarget` emote token from `ATTACKTARGET` to `ATTACKMYTARGET`, following the Turtle WoW API token list.
+- The `/bbc slot` command now accepts only whole-number action slots 1–120 and leaves the previous setting intact on invalid input.
+- The initial emote timestamp is now unset until an emote is attempted. The first eligible action can trigger immediately; subsequent emotes remain limited to one every 21 seconds. `/bbc timer` reports 0 seconds before the first emote.
+- Automated tests cover the timer, cooldown boundaries, token, valid and invalid slot input, and preservation of the original action. No other gameplay rules or installation packaging changed.
+- **Verification:** simulated Lua/CI tests only; no Turtle WoW or Octo WoW in-game test was performed.
+
+## 2026-10-31 — community testing invitation
+
+- At my request, AI updated the README, roadmap and development documentation to clarify that I no longer play on the target servers and will not be performing new in-game tests myself.
+- Community members are welcome to test the addon and send feedback to **babunigaming@gmail.com**.
+- **Documentation only:** the latest runtime remains unverified in-game; no Lua, TOC, installation or license changes were made.
+
+## 2026-11-01 — family-history documentation
+
+- Linked the [source-grounded addon family history](docs/EMOTE_FAMILY_HISTORY.md) and clarified this project's fixed emote pool in comparison with later editable registries.
+- Documentation only; no addon code or manifest changes.

@@ -1,0 +1,27 @@
+name: Verify addon layout and Vanilla event handling
+
+on:
+  push:
+    paths:
+      - 'BuxbrewCharge/**'
+      - 'tests/**'
+      - '.github/workflows/verify-install-layout.yml'
+  pull_request:
+    paths:
+      - 'BuxbrewCharge/**'
+      - 'tests/**'
+      - '.github/workflows/verify-install-layout.yml'
+
+jobs:
+  test-package-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate installable folder
+        run: python3 -m unittest discover -s tests -v
+      - name: Install Lua test interpreter
+        run: sudo apt-get update && sudo apt-get install -y lua5.1
+      - name: Simulate WoW 1.12 event globals
+        run: lua5.1 tests/legacy_events_smoke.lua
+      - name: Verify emotes, slot input and cooldown
+        run: lua5.1 tests/emote_cooldown_smoke.lua
