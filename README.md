@@ -32,7 +32,7 @@ The addon has **no slash commands, options panel, SavedVariables, or other confi
 1. The addon notices an action through **`UseAction`**, **`CastSpell`**, or **`CastSpellByName`**. It wraps each global function, checks the ability's icon, and then calls the original function.
 2. If the icon is in the offensive whitelist, the player is a **Warrior**, and the target exists, is alive and is hostile/attackable, it checks whether melee auto-attack is already active.
 3. If the attack appears inactive, the code calls the Vanilla API **`AttackTarget()`** once. This matters because **`AttackTarget()` toggles attack** and would switch it off if called blindly.
-4. If the icon matches **Intimidating Shout**, the code instead attempts to switch off an active attack. This stop branch is not currently guarded by `IsWarrior()`; see [architecture](docs/ARCHITECTURE.md) and the [roadmap](ROADMAP.md).
+4. If the icon matches **Intimidating Shout**, the code instead attempts to switch off an active attack. This stop branch is not currently guarded by `IsWarrior()`; see [architecture](docs/ARCHITECTURE.md) and the [roadmap](docs/ROADMAP.md).
 5. The original action function still runs afterwards. The addon doesn't check mana/rage, success/failure, attack range or whether a cast was completed before attempting its extra attack-state change.
 
 The auto-attack-state check scans action-bar slots **1–120** for an active **Attack** action (`IsAttackAction` and `IsCurrentAction`). If it cannot find one, it relies on a locally tracked flag updated by `PLAYER_ENTER_COMBAT`, `PLAYER_LEAVE_COMBAT`, and the addon's own attack toggles. This is a useful fallback, **not necessarily perfect evidence of active melee swings** on every client or combat situation.
@@ -87,6 +87,6 @@ If the addon doesn't load, confirm the folder and filenames and look for the sta
 
 WarriorStartAttack began as a single **August 10, 2026** code upload. On **October 26, 2026**, author attribution and a short documentation scaffold were added. The present audit expands that into a portfolio-ready record without altering Lua or TOC.
 
-For fuller context: [concept](CONCEPT.md), [development journal](docs/DEVLOG.md), [architecture](docs/ARCHITECTURE.md), [design and interaction](docs/DESIGN.md), [ability inventory](docs/CONTENT.md), [decision evidence](docs/DECISIONS.md), [verification roadmap](ROADMAP.md), [changelog](CHANGELOG.md), [collaboration attribution](docs/AI_COLLABORATION.md), and [AI/developer instructions](AGENTS.md).
+For fuller context: [concept](docs/CONCEPT.md), [development journal](docs/DEVLOG.md), [architecture](docs/ARCHITECTURE.md), [design and interaction](docs/DESIGN.md), [ability inventory](docs/CONTENT.md), [decision evidence](docs/DECISIONS.md), [verification roadmap](docs/ROADMAP.md), [changelog](CHANGELOG.md), [collaboration attribution](docs/AI_COLLABORATION.md), and [AI/developer instructions](AGENTS.md).
 
 **Original concept and creative direction:** Babuni.dev. **AI contribution in this audit:** research, source interpretation, editorial documentation, commit and verification. No in-game behavior was independently observed.
