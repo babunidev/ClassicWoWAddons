@@ -38,4 +38,4 @@ All of these are **open questions**, not silently accepted improvements.
 
 ## Related development history
 
-Battle Emotes, originally the separate `roarr` repository, preserves the same five **hardcoded** native emotes and action-slot/chance/cooldown mechanics as Battle Emotes Legacy. The meaningful source difference is its expanded seven-step `/roarr tutorial`. Neither addon exposes an in-game command for adding emote tokens; that extensible registry appears in the later Roar Guild Addon. The [cross-project development account](docs/EMOTE_FAMILY_HISTORY.md) records the other branches and client targets.
+Battle Emotes, originally the separate `roarr` repository, preserves the same five **hardcoded** native emotes and action-slot/chance/cooldown mechanics as Battle Emotes Legacy. The meaningful source difference is its expanded seven-step `/roarr tutorial`. Neither addon exposes an in-game command for adding emote tokens; that extensible registry appears in the later Roar Guild Addon. The [cross-project development account](EMOTE_FAMILY_HISTORY.md) records the other branches and client targets.

@@ -73,9 +73,9 @@ ROARR also must not be confused with the separate, more advanced **RoarForever**
 
 ## Development documentation
 
-- [Concept](CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Emote/content inventory](docs/CONTENT.md)
+- [Concept](docs/CONCEPT.md) · [Interaction design](docs/DESIGN.md) · [Emote/content inventory](docs/CONTENT.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Decision evidence](docs/DECISIONS.md) · [Development journal](docs/DEVLOG.md)
-- [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer instructions](AGENTS.md)
 
 ## Relation to the wider emote projects
