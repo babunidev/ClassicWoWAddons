@@ -30,7 +30,7 @@ The creative conceived the game and directed its rules. AI assisted with Lua imp
 
 ## Workflow and verification
 
-1. Read `README.md`, `CONCEPT.md`, `docs/DECISIONS.md`, `docs/ARCHITECTURE.md`, the Lua source and TOC before changing mechanics.
+1. Read `README.md`, `docs/CONCEPT.md`, `docs/DECISIONS.md`, `docs/ARCHITECTURE.md`, the Lua source and TOC before changing mechanics.
 2. Keep proposals separate from decisions explicitly made by the creative.
 3. Check the actual repository state before claiming an implementation or test.
 4. For substantive code changes, update affected documentation, including `CHANGELOG.md`, `docs/DEVLOG.md` and `docs/DECISIONS.md`.
@@ -40,3 +40,7 @@ The creative conceived the game and directed its rules. AI assisted with Lua imp
 ## Repository-local documentation standard
 
 Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+
+## Repository layout
+
+The repository root holds only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md` (plus any additional license files). All other documentation lives in `docs/`; put new documents there.

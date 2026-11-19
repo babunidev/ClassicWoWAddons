@@ -27,6 +27,6 @@ The spirit of the game is social: two people can play catch across the course, w
 
 ## What exists and what comes next
 
-The source provides a **v0.72 addon for WoW 1.12**, with local scoring, checkpoint rectangles, inventory polling and chat messages. Its actual proximity and catch detection are narrower than the ideal social rules. See [README](README.md) and [architecture](docs/ARCHITECTURE.md) for those limitations.
+The source provides a **v0.72 addon for WoW 1.12**, with local scoring, checkpoint rectangles, inventory polling and chat messages. Its actual proximity and catch detection are narrower than the ideal social rules. See [README](../README.md) and [architecture](ARCHITECTURE.md) for those limitations.
 
 A **modern WoW adaptation is intended**, subject to investigation of the target client's item mechanics and addon APIs. This is a future direction, not an implemented port or verified compatibility claim.

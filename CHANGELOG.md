@@ -2,6 +2,10 @@
 
 **Creative:** Babuni
 
+## 2026-11-19 — documentation moved into `docs/`
+
+- Moved `CONCEPT.md` and `ROADMAP.md` into `docs/`. The root keeps only `README.md`, `AGENTS.md`, `LICENSE` and `CHANGELOG.md`; links to the moved files and the documentation rules in `AGENTS.md` were updated. No code changed. Claude Code (Claude Opus 5.5).
+
 ## 2026-11-01 — documentation revision
 
 - Rewrote the public documentation for readability and a consistent human-first narrative.
