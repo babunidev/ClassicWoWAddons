@@ -99,7 +99,7 @@ The original software is licensed under [MIT](LICENSE) as of 13 November 2026. T
 
 ## Development documentation
 
-- [Creative concept](CONCEPT.md) · [Verification roadmap](ROADMAP.md) · [Dated changelog](CHANGELOG.md)
+- [Creative concept](docs/CONCEPT.md) · [Verification roadmap](docs/ROADMAP.md) · [Dated changelog](CHANGELOG.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Interaction design](docs/DESIGN.md) · [Content inventory](docs/CONTENT.md)
 - [Design decisions](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer/AI rules](AGENTS.md)
